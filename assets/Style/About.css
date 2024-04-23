@@ -1,0 +1,226 @@
+.about {
+    margin-top: 10vh;
+}
+
+.about_start {
+    padding: 50px 0;
+}
+
+.about_university>p {
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+.about_key-facts>p {
+    font-weight: 400;
+    font-size: 34px;
+    border-top: 3px solid #0e1133;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.about_key-facts-content>h5 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.about_key-facts-start {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_key-facts-text {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.about_key-facts-text-start {
+    width: 48%;
+}
+
+.about_key-facts-images {
+    width: 48%;
+    display: flex;
+    gap: 40px;
+}
+
+.about_key-facts-text p {
+    display: flex;
+    align-items: flex-end;
+}
+
+.about_key-facts-text p::after {
+    position: absolute;
+    right: 7%;
+    bottom: .3em;
+    left: 15%;
+    border-bottom: 1px solid RGBA(0, 0, 0, .1);
+    content: "";
+    z-index: -1;
+}
+
+.about_key-facts {
+    margin-bottom: 100px;
+}
+
+.about_key-facts-img {
+    width: 200px;
+    position: relative;
+
+}
+
+.about_key-facts-img::before {
+    content: "a";
+    color: red;
+    left: -12px;
+    top: -20px;
+    position: absolute;
+}
+
+.about_key-facts-img img {
+    width: 100%;
+}
+
+.about_key-facts-img span {
+    color: red;
+}
+
+.about_key-facts-img p {
+    font-size: 13.2226px;
+    font-weight: 400;
+}
+
+.director_img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+
+}
+
+.about_key-facts-text-start h5 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.about_images {
+
+    background-color: #0e1133;
+}
+
+.about_images-start {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 100px 0;
+}
+
+.about_images-box {
+    width: 32%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.about_images-box img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.about_images-box:hover {
+    background: #0e1133;
+    opacity: .5;
+    transition: .3;
+    cursor: url(/themes/mit/assets/img/cursors/plus.svg), nesw-resize;
+
+}
+
+.footer_about {
+    background: #0e1133;
+    border-top: 1px solid #fff;
+    padding-top: 50px;
+}
+
+@media(max-width:1000px) {
+    .about_key-facts-start {
+        flex-direction: column;
+    }
+
+    .about_key-facts-text-start {
+        width: 100%;
+        margin-bottom: 40px;
+
+    }
+    .about_key-facts-img {
+        width: 100%;
+    }
+    .about_key-facts-img img{
+        width: 100%;
+    }
+    .about_key-facts-images{
+        width: 100%;
+    }
+    .about_university-content video{
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .about_images-box{
+        width: 100%;
+    }
+
+}
+.about_university > p{
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.about_university-content p{
+    margin-bottom: 40px;
+}
+.direction p{
+    font-size: 15.1113px;
+    font-weight: 400;
+    color: gray;
+    line-height: 1.3;
+    position: relative;
+}
+.direction p::after{
+    content: "/";
+    color: red;
+    font-weight: 500;
+    left: 50px;
+    position: absolute;
+}
+.direction{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 50px 0;
+}
+.direction span{
+    font-size: 15.1113px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.about_university-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.about_university-content video{
+    width: 500px;
+}
+@media(max-width:900px){
+    .about_university-content{
+        flex-direction: column;
+    }
+    .about_university-content video{
+        width: 100%;
+    }
+}
