@@ -4,16 +4,11 @@ const moreLinks = document.querySelector('.more-links');
 moreLinksButton.addEventListener('click', () => {
   moreLinks.classList.toggle('show'); // Toggle visibility using class
 });
-window.onload = function () {
-  var textArray = ["Bizning boshqa sahifalarimiz", "Talabalar hayoti", "Biz haqimizda"]; // Список текстов, которые вы хотите отображать
-  var currentIndex = 0;
-  var changingInput = document.getElementById("changingInput");
 
-  setInterval(function () {
-    changingInput.value = textArray[currentIndex];
-    currentIndex = (currentIndex + 1) % textArray.length;
-  }, 5000); // Обновлять текст каждые 5 секунд
-};
+
+
+
+
 let menuBtn = document.querySelector('.menu-btn');
 let menu = document.querySelector('.navbar_links');
 let menuItem = document.querySelectorAll('.nav__link');
@@ -30,3 +25,11 @@ menuItem.forEach(function (menuItem) {
     menu.classList.toggle('active');
   })
 })
+
+function showDD(id) {
+  document.getElementById('DD' + id).style = `display: block;  position: absolute; top: ${id *35}px; left: 160px; background-color: #0e1133;`;
+}
+
+function closeDD(id) {
+  document.getElementById('DD' + id).style = "display: none";
+}
