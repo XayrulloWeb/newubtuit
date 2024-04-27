@@ -38,7 +38,7 @@
     font-weight: 400;
 }
 .employe_image-start{
-    width: 100%;
+    width: 1300px;
 
 }
 .employe_image{
@@ -51,6 +51,7 @@
 .employe_image img{
     width: 100%;
     border-radius: 10px;
+    height: 700px;
 
  
 }
@@ -67,20 +68,23 @@
 .employe_about-paragraph {
     width: 1000px;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .footer_director{
     background-color: #0e1133;
     padding-top: 30px;
 }
-.director_info{
+.employe_info{
     width: 700px;
 }
-.drector_info-start{
+.employe_info-start{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.drector_info-start span{
+.employe_info-start span{
     font-size: 17px;
     color: #3741ab;
     font-weight: 800;

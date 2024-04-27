@@ -38,7 +38,7 @@
     font-weight: 400;
 }
 .director_image-start{
-    width: 100%;
+    width: 1300px;
 
 }
 .director_image{
@@ -50,6 +50,7 @@
 }
 .director_image img{
     width: 100%;
+    height: 700px;
     border-radius: 10px;
 
  
@@ -67,6 +68,9 @@
 .director_about-paragraph {
     width: 1000px;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .footer_director{
     background-color: #0e1133;
