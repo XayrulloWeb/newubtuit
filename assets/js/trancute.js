@@ -30,7 +30,10 @@ menuItem.forEach(function (menuItem) {
 
 function showDD(id) {
   if (window.innerWidth >= 768) {
-    document.getElementById('DD' + id).style = `display: block;  position: absolute; top: ${id *40}px; left: 160px; background-color: #0e1133;`;
+    document.getElementById('DD' + id).style = `display: block;  position: absolute; top: ${id *40}px; left: 180px; background-color: #0e1133;`;
+  }else{
+    document.getElementById('DD' + id).style = `display: block;  position: relative;  background-color: #0e1133;`;
+
   }
 }
 
@@ -42,7 +45,10 @@ function closeDD(id) {
 
 function showDDtwo(id) {
   if (window.innerWidth >= 768) {
-    document.getElementById('Dd' + id).style = `display: block;  position: absolute; top: ${id *40}px; left: 160px; background-color: #0e1133;`;
+    document.getElementById('Dd' + id).style = `display: block;  position: absolute; top: ${id *50}px; left: 180px; background-color: #0e1133;`;
+  }else{
+    document.getElementById('Dd' + id).style = `display: block;  position: relative;  background-color: #0e1133;`;
+
   }
 }
 
