@@ -235,7 +235,7 @@
     }
 
     .navbar_links.active {
-        transform: translateX(50%);
+        transform: translateX(0%);
     }
     .navbar_links ul .link:nth-child(n+5) {
         display: flex;
@@ -361,10 +361,14 @@
         padding-top: 0;
         width: 100%;
     }
+ 
    .nav__link > .dropdown__menu{
         width: 100%;
     }
     .menu ul{
         width: 100%;
+    }
+    .navbar_links ul li{
+        padding: 0;
     }
 }

@@ -11,7 +11,6 @@ moreLinksButton.addEventListener('click', () => {
 
 let menuBtn = document.querySelector('.menu-btn');
 let menu = document.querySelector('.navbar_links');
-let menuItem = document.querySelectorAll('.nav__link');
 
 menuBtn.addEventListener('click', function () {
   menuBtn.classList.toggle('active');
@@ -25,9 +24,13 @@ menuItem.forEach(function (menuItem) {
     menu.classList.toggle('active');
   })
 })
+
+
+
+
 function showDD(id) {
   if (window.innerWidth >= 768) {
-    document.getElementById('DD' + id).style = `display: block;  position: absolute; top: ${id *35}px; left: 160px; background-color: #0e1133;`;
+    document.getElementById('DD' + id).style = `display: block;  position: absolute; top: ${id *40}px; left: 160px; background-color: #0e1133;`;
   }
 }
 
@@ -39,7 +42,7 @@ function closeDD(id) {
 
 function showDDtwo(id) {
   if (window.innerWidth >= 768) {
-    document.getElementById('Dd' + id).style = `display: block;  position: absolute; top: ${id *35}px; left: 160px; background-color: #0e1133;`;
+    document.getElementById('Dd' + id).style = `display: block;  position: absolute; top: ${id *40}px; left: 160px; background-color: #0e1133;`;
   }
 }
 
