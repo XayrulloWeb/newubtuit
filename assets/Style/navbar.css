@@ -239,6 +239,7 @@
     }
     .navbar_links ul .link:nth-child(n+5) {
         display: flex;
+        flex-direction: column;
     }
     .more-links-button{
         display: none;
@@ -272,7 +273,6 @@
     padding-top: 2vh;
     background-color: #0e1133;
     position: absolute;
-    z-index: 999;
 
     transition: .3s ;
 }
@@ -352,4 +352,19 @@
 }
 .menu ul li a{
     width: 100%;
+}
+@media(max-width:768px){
+    .navbar_links ul li:hover .dropdown__menu{
+        display: block;
+        position: relative;
+        left: 0;
+        padding-top: 0;
+        width: 100%;
+    }
+   .nav__link > .dropdown__menu{
+        width: 100%;
+    }
+    .menu ul{
+        width: 100%;
+    }
 }

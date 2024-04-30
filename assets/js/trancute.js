@@ -25,11 +25,26 @@ menuItem.forEach(function (menuItem) {
     menu.classList.toggle('active');
   })
 })
-
 function showDD(id) {
-  document.getElementById('DD' + id).style = `display: block;  position: absolute; top: ${id *35}px; left: 160px; background-color: #0e1133;`;
+  if (window.innerWidth >= 768) {
+    document.getElementById('DD' + id).style = `display: block;  position: absolute; top: ${id *35}px; left: 160px; background-color: #0e1133;`;
+  }
 }
 
 function closeDD(id) {
-  document.getElementById('DD' + id).style = "display: none";
+  if (window.innerWidth >= 768) {
+    document.getElementById('DD' + id).style = "display: none";
+  }
+}
+
+function showDDtwo(id) {
+  if (window.innerWidth >= 768) {
+    document.getElementById('Dd' + id).style = `display: block;  position: absolute; top: ${id *35}px; left: 160px; background-color: #0e1133;`;
+  }
+}
+
+function closeDDtwo(id) {
+  if (window.innerWidth >= 768) {
+    document.getElementById('Dd' + id).style = "display: none";
+  }
 }
