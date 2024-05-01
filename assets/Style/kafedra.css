@@ -1,0 +1,97 @@
+.kafedra {
+    padding-top: 10vh;
+    margin-bottom: 100px;
+}
+
+.kafedra_info-start {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.kafedra_G-image {
+    width: 400px;
+    height: auto;
+}
+
+.kafedra_G-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.kafedra_info h2 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #1b2375;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.kafedra_director-name h3 {
+    margin: 2px 0;
+    color: #1b2375;
+    font-size: 20px;
+}
+
+.kafedra_info {
+    width: 65%;
+}
+
+.kafedra_yourself-info span {
+    font-weight: 700;
+}
+
+.kafedra_yourself-info {
+    margin-bottom: 10px;
+}
+
+.kafedra_lesson-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+.kafedra_lessons-start {
+    width: 30%;
+    margin-top: 50px;
+
+}
+
+.kafedra_lessons-text h3 {
+    font-size: 20px;
+    color: #1b2375;
+}
+
+.kafedra_lessons-icon-start {
+    background: #0e1133;
+    margin-top: 20px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.kafedra_lesson-icon i {
+    font-size: 25px;
+    width: 100%;
+    fill: #fff;
+}
+
+.kafedra_lesson-icon-start {
+    width: 10%;
+}
+
+.kafedra_lesson-text-start {
+    width: 80%;
+}
+.kafedra_lessons-info{
+    width: 65%;
+    margin-top: 130px;
+}
+.kafedra_lessons{
+    display: flex;
+    justify-content: space-between;
+}
