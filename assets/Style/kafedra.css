@@ -1,8 +1,9 @@
 .kafedra {
     padding-top: 10vh;
+}
+.kafedra_start{
     margin-bottom: 100px;
 }
-
 .kafedra_info-start {
     display: flex;
     justify-content: space-between;
@@ -94,4 +95,35 @@
 .kafedra_lessons{
     display: flex;
     justify-content: space-between;
+}
+@media(max-width:1040px){
+    .kafedra_info-start{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .kafedra_info{
+        width: 100%;
+    }
+    .kafedra_lessons{
+        flex-direction: column;
+    }
+    .kafedra_lessons-start{
+        width: 100%;
+    }
+    .kafedra_lessons-info{
+        width: 100%;
+    }
+    .kafedra_lesson-icon{
+        width: 49%;
+    }
+    .kafedra_lessons-icon-start{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:500px){
+    .kafedra_lesson-icon{
+        width: 100%;
+    }
 }
