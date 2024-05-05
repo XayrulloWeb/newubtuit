@@ -340,3 +340,15 @@
         padding: 0;
     }
 }
+@media(max-width:1341px){
+    .navbar_links ul li:hover .dropdown__menu {
+        display: block;
+        left: 20%;
+        top: 100%;
+        width: 180px;
+        padding-top: 2vh;
+        background-color: #0e1133;
+        position: absolute;
+        transition: .3s;
+    }
+}
