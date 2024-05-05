@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/Style/navbar.css">
+    <link rel="stylesheet" href="/assets/Style/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/Style/kafedra.css">
+    <link rel="stylesheet" href="./assets/Style/About.css">
+    <link rel="stylesheet" href="./assets/Style/director.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar_start">
+                    <div class="navbar_logo">
+                        <a href="/index.html"> <img src="/assets/Images/logo.png" alt="logo">
+                        </a>
+                        <span>Muhammad Al-Xorazmiy Nomidagi <br> Toshkent Axborot Texnologiyalari <br> Universiteti
+                            Urganch Filiali</span>
+                    </div>
+
+                    <div class="navbar_links">
+                        <ul>
+                            <li class="link"><a class="nav__link">TUZILMA <i class="fa-solid fa-caret-down"></i>
+                                    <div class="dropdown__menu">
+                                        <ul>
+                                            <li onmouseenter="showDD(1)" onmouseleave="closeDD(1)"><a>DIREKTORAT <i
+                                                        class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD1" class="dropdown__menu-1 menu" onmouseenter="showDD(1)"
+                                                onmouseleave="closeDD(1)">
+                                                <ul>
+                                                    <li><a href="./director.html">
+                                                            <p>Director</p>
+                                                        </a></li>
+                                                    <li><a href="./employe.html">
+                                                            <p>YOSHLAR MASALALARI VA MA’NAVIY-MA’RIFIY ISHLAR BO‘YICHA
+                                                                DIREKTORNING BIRINCHI O’RINBOSARI</p>
+                                                        </a></li>
+                                                    <li><a href="./employe-two.html">
+                                                            <p>ILMIY ISHLAR VA INNOVATSIYALAR BO’YICHA DIREKTOR
+                                                                O’RINBOSARI</p>
+                                                        </a></li>
+                                                    <li><a href="./employe-three.html">O'QUV ISHLAR BO'YICHA DIREKTOR
+                                                            O'RINBOSARI</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(2)" onmouseleave="closeDD(2)"><a>KAFEDRALAR <i
+                                                        class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD2" class="dropdown__menu-2 menu" onmouseenter="showDD(2)"
+                                                onmouseleave="closeDD(2)">
+                                                <ul>
+                                                    <li><a href="">
+                                                            <p>AXBOROT TEXNOLOGIYALARI KAFEDRASI</p>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <p>RAQAMLI TA’LIM TEXNOLOGIYALARI KAFEDRASI</p>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            <p> TELEKOMMUNIKATSIYA INJINIRINGI KAFEDRASI</p>
+                                                        </a></li>
+                                                    <li><a href="">
+                                                            DASTURIY INJINIRING KAFEDRASI</a></l i>
+                                                    <li><a href="">TABIIY FANLAR KAFEDRASI</a></li>
+                                                    <li><a href="">GUMANITAR VA IJTIMOIY FANLAR KAFEDRASI</a></li>
+                                                    <li><a href="">
+                                                            AXBOROT ХАVFSIZLIGI KAFEDRASI</a></li>
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(3)" onmouseleave="closeDD(3)"><a>MARKAZLAR
+                                                    <i class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD3" class="dropdown__menu-3 menu" onmouseenter="showDD(3)"
+                                                onmouseleave="closeDD(3)">
+                                                <ul>
+                                                    <li><a href="">RAQAMLI TA'LIM TEXNOLOGIYALARI MARKAZI</a></li>
+                                                    <li><a href="">AXBOROT-RESURS MARKAZI:</a></li>
+                                                    <li><a href="">DEVONXONA VA ARXIV BO'LIMI</a></li>
+                                                    <li><a href="">O'QUV-USLUBIY BO'LIMI BOSHLIG‘I</a></li>
+                                                    <li><a href="">TA'LIM SIFATINI NAZORAT QILISH BO'LIMI BOSHLIG‘I</a>
+                                                    </li>
+                                                    <li><a href="">KADRLAR BO'LIMI BOSHLIG‘I</a></li>
+                                                    <li><a href="">YOSHLAR BILAN ISHLASH, MA'NAVIYAT VA MA'RIFAT
+                                                            BO'LIMI</a></li>
+                                                    <li><a href="">XALQARO HAMKORLIK BO'LIMI BOSHLIG‘I</a></li>
+                                                    <li><a href="">ICHKI NAZORAT VA MONITORING BO‘LIMI BOSHLIG'I</a>
+                                                    </li>
+                                                    <li><a href="">TALABALARNI TURAR JOY BILAN TAʼMINLASHNI
+                                                            MUVOFIQLASHTIRISH BOʼLIM</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(4)" onmouseleave="closeDD(4)"><a>BO'LIMLAR
+                                                    <i class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD4" class="dropdown__menu-4 menu" onmouseenter="showDD(4)"
+                                                onmouseleave="closeDD(4)">
+                                                <ul>
+                                                    <li><a href="">ILMIY-TADQIQOTLAR, INNOVATSIYALAR VA ILMIY-PEDAGOGIK
+                                                            KADRLARNI TAYYORLASH BOʼLIMI</a></li>
+                                                    <li><a href="">IQTIDORLI TALABALARNING ILMIY-TADQIQOT ISHLARINI
+                                                            TASHKIL ETISH BO’LIMI:</a></li>
+                                                    <li><a href="">MARKETING VA TALABALAR AMALIYOTI BO'LIMI</a></li>
+                                                    <li><a href="">
+                                                            REJA-MOLIYA BO'LIMI BOSHLIG‘I</a></li>
+                                                    <li><a href="">YURIDIK XIZMATI BO'LIMI</a></li>
+                                                    <li><a href="">MATBUOT XIZMATI BO'LIMI</a></li>
+                                                    <li><a href="">TEXNIK-FOYDALANISH VA XO’JALIK BO’LIMI</a></li>
+                                                    <li><a href="">MEHNAT MUHOFAZASI VA FUQORALARNI HIMOYA QILISH
+                                                            BO‘LIMI</a></li>
+                                                    <li><a href="">SIRTQI BO'LIM</a></li>
+                                                    <li><a href="">KORRUPSIYAGA QARSHI KURASHISH VA "KOMPLAENS NAZORAT"
+                                                            TIZIMINI BOSHQARISH BO'LIMI BOSHLIG'I</a></li>
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(5)" onmouseleave="closeDD(5)"><a>FAKULTETLAR <i
+                                                        class="fa-solid fa-caret-right"></i></a>
+                                            </li>
+                                            <div id="DD5" class="dropdown__menu-5 menu" onmouseenter="showDD(5)"
+                                                onmouseleave="closeDD(5)">
+                                                <ul>
+                                                    <li><a href="">
+                                                            KOMPYUTER INJINIRINGI FAKULTETI</a></li>
+                                                    <li><a href="">TELEKOMMUNIKATSIYA TEXNOLOGIYALARI FAKULTETI</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(6)" onmouseleave="closeDD(6)"><a>KENGASHLAR <i
+                                                        class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD6" class="dropdown__menu-6 menu" onmouseenter="showDD(6)"
+                                                onmouseleave="closeDD(6)">
+                                                <ul>
+                                                    <li><a href="">FILIAL KENGASHI </a></li>
+                                                    <li><a href="">FILIAL XOTIN QIZLAR KENGASHI</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </a></li>
+                            <li class="link"><a class="nav__link" href="#">TALABALAR <i
+                                        class="fa-solid fa-caret-down"></i></a>
+                                <div class="dropdown__menu">
+                                    <ul>
+                                        <li onmouseenter="showDDtwo(1)" onmouseleave="closeDDtwo(1)"><a
+                                                href="#">STIPENDIYALAR VA GRANTLAR <i
+                                                    class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd1" class="dropdown__menu-7 menu" onmouseenter="showDDtwo(1)"
+                                            onmouseleave="closeDDtwo(1)">
+                                            <ul>
+                                                <li><a href="./director.html">
+                                                        <p>Director</p>
+                                                    </a></li>
+                                                <li><a href="./employe.html">
+                                                        <p>YOSHLAR MASALALARI VA MA’NAVIY-MA’RIFIY ISHLAR BO‘YICHA
+                                                            DIREKTORNING BIRINCHI O’RINBOSARI</p>
+                                                    </a></li>
+                                                <li><a href="./employe-two.html">
+                                                        <p>ILMIY ISHLAR VA INNOVATSIYALAR BO’YICHA DIREKTOR
+                                                            O’RINBOSARI</p>
+                                                    </a></li>
+                                                <li><a href="./employe-three.html">O'QUV ISHLAR BO'YICHA DIREKTOR
+                                                        O'RINBOSARI</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(2)" onmouseleave="closeDDtwo(2)"><a
+                                                href="#">QO'SHIMCHA MA'LUMOTLAR <i
+                                                    class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd2" class="dropdown__menu-8 menu" onmouseenter="showDDtwo(2)"
+                                            onmouseleave="closeDDtwo(2)">
+                                            <ul>
+                                                <li><a href="">
+                                                        <p>AXBOROT TEXNOLOGIYALARI KAFEDRASI</p>
+                                                    </a></li>
+                                                <li><a href="">
+                                                        <p>RAQAMLI TA’LIM TEXNOLOGIYALARI KAFEDRASI</p>
+                                                    </a></li>
+                                                <li><a href="">
+                                                        <p> TELEKOMMUNIKATSIYA INJINIRINGI KAFEDRASI</p>
+                                                    </a></li>
+                                                <li><a href="">
+                                                        DASTURIY INJINIRING KAFEDRASI</a></l i>
+                                                <li><a href="">TABIIY FANLAR KAFEDRASI</a></li>
+                                                <li><a href="">GUMANITAR VA IJTIMOIY FANLAR KAFEDRASI</a></li>
+                                                <li><a href="">
+                                                        AXBOROT ХАVFSIZLIGI KAFEDRASI</a></li>
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(3)" onmouseleave="closeDDtwo(3)"><a href="#">ONLINE
+                                                RESURSLAR
+                                                <i class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd3" class="dropdown__menu-9 menu" onmouseenter="showDDtwo(3)"
+                                            onmouseleave="closeDDtwo(3)">
+                                            <ul>
+                                                <li><a href="">RAQAMLI TA'LIM TEXNOLOGIYALARI MARKAZI</a></li>
+                                                <li><a href="">AXBOROT-RESURS MARKAZI:</a></li>
+                                                <li><a href="">DEVONXONA VA ARXIV BO'LIMI</a></li>
+                                                <li><a href="">O'QUV-USLUBIY BO'LIMI BOSHLIG‘I</a></li>
+                                                <li><a href="">TA'LIM SIFATINI NAZORAT QILISH BO'LIMI BOSHLIG‘I</a>
+                                                </li>
+                                                <li><a href="">KADRLAR BO'LIMI BOSHLIG‘I</a></li>
+                                                <li><a href="">YOSHLAR BILAN ISHLASH, MA'NAVIYAT VA MA'RIFAT
+                                                        BO'LIMI</a></li>
+                                                <li><a href="">XALQARO HAMKORLIK BO'LIMI BOSHLIG‘I</a></li>
+                                                <li><a href="">ICHKI NAZORAT VA MONITORING BO‘LIMI BOSHLIG'I</a>
+                                                </li>
+                                                <li><a href="">TALABALARNI TURAR JOY BILAN TAʼMINLASHNI
+                                                        MUVOFIQLASHTIRISH BOʼLIM</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(4)" onmouseleave="closeDDtwo(4)"><a href="#">YOSHLAR
+                                                SIYOSATI DOIRASIDAGI IMKONIYATLAR
+                                                <i class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd4" class="dropdown__menu-10 menu" onmouseenter="showDDtwo(4)"
+                                            onmouseleave="closeDDtwo(4)">
+                                            <ul>
+                                                <li><a href="">ILMIY-TADQIQOTLAR, INNOVATSIYALAR VA ILMIY-PEDAGOGIK
+                                                        KADRLARNI TAYYORLASH BOʼLIMI</a></li>
+                                                <li><a href="">IQTIDORLI TALABALARNING ILMIY-TADQIQOT ISHLARINI
+                                                        TASHKIL ETISH BO’LIMI:</a></li>
+                                                <li><a href="">MARKETING VA TALABALAR AMALIYOTI BO'LIMI</a></li>
+                                                <li><a href="">
+                                                        REJA-MOLIYA BO'LIMI BOSHLIG‘I</a></li>
+                                                <li><a href="">YURIDIK XIZMATI BO'LIMI</a></li>
+                                                <li><a href="">MATBUOT XIZMATI BO'LIMI</a></li>
+                                                <li><a href="">TEXNIK-FOYDALANISH VA XO’JALIK BO’LIMI</a></li>
+                                                <li><a href="">MEHNAT MUHOFAZASI VA FUQORALARNI HIMOYA QILISH
+                                                        BO‘LIMI</a></li>
+                                                <li><a href="">SIRTQI BO'LIM</a></li>
+                                                <li><a href="">KORRUPSIYAGA QARSHI KURASHISH VA "KOMPLAENS NAZORAT"
+                                                        TIZIMINI BOSHQARISH BO'LIMI BOSHLIG'I</a></li>
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(5)" onmouseleave="closeDDtwo(5)"><a href="#">XORIJIY
+                                                TALABALAR
+                                                <i class="fa-solid fa-caret-right"></i></a>
+                                        </li>
+                                        <div id="Dd5" class="dropdown__menu-11 menu" onmouseenter="showDDtwo(5)"
+                                            onmouseleave="closeDDtwo(5)">
+                                            <ul>
+                                                <li><a href="">
+                                                        KOMPYUTER INJINIRINGI FAKULTETI</a></li>
+                                                <li><a href="">TELEKOMMUNIKATSIYA TEXNOLOGIYALARI FAKULTETI</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(6)" onmouseleave="closeDDtwo(6)"><a href="#">QAYTA
+                                                O'QISH
+                                                <i class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd6" class="dropdown__menu-12 menu" onmouseenter="showDDtwo(6)"
+                                            onmouseleave="closeDDtwo(6)">
+                                            <ul>
+                                                <li><a href="">FILIAL KENGASHI </a></li>
+                                                <li><a href="">FILIAL XOTIN QIZLAR KENGASHI</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="link"><a class="nav__link" href="#">FAOLIYAT</a></li>
+
+                            <li class="link"><a class="nav__link" href="#">INNOVATSIYALAR</a></li>
+                            <li class="link"><a class="nav__link" href="#">YANGILIKLAR</a></li>
+                            <li class="link"><a class="nav__link" href="#">TADQIQOT</a></li>
+
+
+                            <li class="link"><a class="nav__link" href="./aboutUbTuit.html">UNIVERSITET HAQIDA</a></li>
+
+                        </ul>
+                        <span class="more-links-button">ko'proq <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+                            </svg></span>
+
+                        <div class="more-links">
+                            <li><a href="#">INNOVATSIYALAR</a></li>
+
+                            <li><a href="#">YANGILIKLAR</a></li>
+                            <li><a href="#">TADQIQOT</a></li>
+                            <li><a href="./aboutUbTuit.html">UNIVERSITET HAQIDA</a></li>
+                        </div>
+                    </div>
+                    <div class="menu-btn">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="navbar_search">
+                <img src="/assets/Images/search_icon.png" alt="icon_search">
+            </div>
+        </div>
+        <div class="kafedra">
+            <div class="container">
+                <div class="kafedra_start">
+                    <div class="kafedra_info-start">
+                        <div class="kafedra_G-image">
+                            <img src="./assets/Images/kafedra-6.jpg" alt="">
+                        </div>
+                        <div class="kafedra_info">
+                            <h2>
+                                GUMANITAR VA IJTIMOIY FANLAR KAFEDRASI</h2>
+                            <div class="direction">
+                                <a href="./index.html">
+                                    <p>Home</p>
+
+                                </a>
+                                <span>GUMANITAR VA IJTIMOIY FANLAR KAFEDRASI</span>
+                            </div>
+                            <div class="kafedra_director-name">
+                                <p>Kafedra mudiri:</p>
+                                <h3>Xajiyeva Iroda Adambayevna</h3>
+                            </div>
+                            <div class="kafedra_yourself-info">
+                                <p><span>Qabul vaqti</span>:Seshanba – Payshanba (14:00-16:00)</p>
+                                <p><span>Telefon</span> +998 90 648-18-35</p>
+                                <p><span>E-mail</span>: <a href=""> iroda.khajieva@ubtuit.uz</a> </p>
+                            </div>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="kafedra_lessons">
+                        <div class="kafedra_lessons-start">
+                            <div class="kafedra_lessons-text">
+                                <h3>Kafedrada o'qitiladigan fanlar:</h3>
+                            </div>
+                            <div class="kafedra_lessons-icon-start">
+                                <div class="kafedra_lesson-icon">
+                                    <div class="kafedra_lesson-icon-start">
+                                        <i class="fa-solid fa-computer"></i>
+
+                                    </div>
+                                    <div class="kafedra_lesson-text-start">
+
+                                        <p>Akademik yozuv;</p>
+                                    </div>
+                                </div>
+                                <div class="kafedra_lesson-icon">
+                                    <div class="kafedra_lesson-icon-start">
+                                        <i class="fa-solid fa-gear"></i>
+
+                                    </div>
+                                    <div class="kafedra_lesson-text-start">
+
+                                        <p>O’zbekistonning eng yangi tarixi;
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="kafedra_lesson-icon">
+                                    <div class="kafedra_lesson-icon-start">
+
+                                        <i class="fa-solid fa-keyboard"></i>
+                                    </div>
+                                    <div class="kafedra_lesson-text-start">
+
+                                        <p>Jismoniy tarbiya;</p>
+                                    </div>
+                                </div>
+                                <div class="kafedra_lesson-icon">
+                                    <div class="kafedra_lesson-icon-start">
+
+                                        <i class="fa-solid fa-helicopter-symbol"></i>
+                                    </div>
+                                    <div class="kafedra_lesson-text-start">
+
+                                        <p>Boshqaruv tamoyillari</p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                        <div class="kafedra_lessons-info">
+                            <h3>Kafedrada ilmiy ishlari va yo’nalishlari:</h3>
+                            <br>
+                            <p>Kafedra 2005-yilda “Gumanitar va ijtimoiy-iqtisodiy fanlar” nomi bilan tashkil etildi.
+                                Kafedraga dastlab filologiya fanlari nomzodi, dotsent G.Xalliyeva mudir etib tayinlangan
+                                va 2010-yilgacha faoliyat olib borgan. 2011-yilning 1-fevralidan f.f.n., Xajiyeva Iroda
+                                Adambayevna rahbarlik qilmoqda. O’tgan davr mobaynida kafedrada 20 ga yaqin
+                                professor-o’qituvchilar, jumladan 6 nafar fan nomzodlari, dotsentlar ilmiy-pedagogik
+                                faoliyat olib bordilar. Kafedra tashkil etilgandan buyon kafedra a’zolaridan 3 nafari
+                                fan nomzodi ilmiy darajasini oldi. 2013-yildan kafedraning nomi “Gumanitar va ijtimoiy
+                                fanlar” kafedrasi tarzida o’zgartirilgan. Hozirda kafedrada 3 nafar fan nomzodi,
+                                dotsent, 2 nafar katta o’qituvchilar ilmiy-pedagogik faoliyat olib bormoqdalar.
+                                Kafedrada o’qitiladigan fanlar multimedia tizimlaridan foydalangan holda olib boriladi.
+                                Fanlar bo’yicha elektron-o’quv resurslar, o’quv-uslubiy majmualar talab darajasida
+                                yaratilgan. Kafedra a’zolari o’quv mashg’ulotlarini yangi pedagogik va axborot
+                                texnologiyalar asosida olib borishadi. Hozirgacha kafedra a’zolarining 100 dan ortiq
+                                ilmiy (jumladan, Scopus va Web of Science bazalarida indeksatsiyalanadigan xorijiy ilmiy
+                                jurnallarda 10 ga yaqin) va 10 dan ortiq uslubiy ishlari e’lon qilingan bo’lib, ulardan
+                                o’quv jarayonlarida, ilmiy-tadqiqot ishlarini bajarishda foydalanib kelinmoqda.
+                                Shuningdek, kafedraning tajribali o’qituvchilari tomonidan o’quv qo’llamna va darsliklar
+                                yaratish yo’lga qo’yilgan. Kafedrada respublikadagi ilmiy va o’quv markazlari bilan
+                                aloqalar o’rnatilgan. Kafedradagi yosh o’qituvchilar gumanitar (filologiya, tarix,
+                                ma’naviyat) yo’nalishda ilmiy izlanishlar olib bormoqdalar.
+                            </p>
+                            <br>
+                            <h3>Kafedra professor-o'qituvchilari:</h3>
+                            <br>
+                            <p>
+                            <h3>Asosiy shtatda:</h3> 1. Xajiyeva Iroda Adambayevna -kafedra mudiri <br>
+                            2. Abdullayeva Shohidaxon Davronbekovna- dotsent <br>
+                            3. Matyazova Nilufar Sabirovna -dotsent <br>
+                            4. Jumaniyazov Fazliddin Bobojonovich -dotsent <br>
+                            5. Xujaniyazova Guzal Yuldashevna -katta oʻqituvchi <br>
+                            6. Adambayeva Feruza Rustambekovna -katta oʻqituvchi <br>
+                            7. Sapayeva Feruza Norboyevna -katta oʻqituvchi <br>
+                            8. To‘liyeva Zulayxo Quranbayevna -assistent <br>
+                            9. Ismoilova Onagul Ibrahimovna -stajyor-oʻqituvchi </p>
+
+                           <h3>Kafedra manzili:</h3>  TATU Urganch filiali binosi, 2-qavat, 210-xona.
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_director">
+                <div class="container">
+                    <div class="footer_start">
+                        <div class="footer_links">
+                            <div class="footer_links-content">
+                                <ul>
+                                    <li><a href="">Education</a></li>
+                                    <li><a href="">Addmision + Aid</a></li>
+                                    <li><a href="">About UbTuit</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">Research</a></li>
+                                    <li><a href="">Campus Life</a></li>
+                                    <li><a href="">Alumini</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="">INNOVATSIYALAR</a></li>
+                                    <li><a href="">News</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer_links-btn">
+                                <a class="button_navbar" href="#">Bizning Boshqa sahifalarimiz</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                </svg>
+                            </div>
+
+                        </div>
+                        <div class="footer_links-mode">
+                            <div class="footer_links-mode-content">
+                                <span>Muhammad Al-Xorazmiy Nomidagi <br> Toshkent Axborot Texnologiyalari <br>
+                                    Universiteti
+                                    Urganch
+                                    Filiali</span>
+                                <div class="footer_links-mode-start">
+                                    <ul>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">People</a></li>
+                                        <li><a href="#">Map</a></li>
+                                        <li><a href="#">Privacy</a></li>
+                                        <li><a href="#">Social Media Hub</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#"><img src="" alt=""></a></li>
+                                        <li><a href="#"><img src="" alt=""></a></li>
+                                        <li><a href="#"><img src="" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer_logo">
+                                <img src="./assets/Images/logo_ubtuit.png" alt="logo">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/js/trancute.js"></script>
+</body>
+
+</html>
