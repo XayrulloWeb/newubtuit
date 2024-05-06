@@ -340,7 +340,7 @@
         padding: 0;
     }
 }
-@media(max-width:1341px){
+/* @media(max-width:1341px){
     .navbar_links ul li:hover .dropdown__menu {
         display: block;
         left: 20%;
@@ -351,4 +351,4 @@
         position: absolute;
         transition: .3s;
     }
-}
+} */
