@@ -87,3 +87,13 @@
 .contact_send i{
     font-size: 30px;
 }
+
+
+.contact_right{
+    color: #fff;
+    display:flex;
+    flex-direction: column;
+}
+.contact_right_info{
+ padding: 10px;
+}
