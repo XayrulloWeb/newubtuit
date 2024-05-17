@@ -1,8 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
 .course {
 	background-color: #fff;
 	border-radius: 10px;
@@ -10,7 +11,7 @@
 	display: flex;
 	max-width: 100%;
 	overflow: hidden;
-	width: 700px;
+	width: 100%;
 }
 
 .course h6 {
@@ -23,13 +24,15 @@
 .course h2 {
 	letter-spacing: 1px;
 	margin: 10px 0;
+	font-size: 18px;
+	font-family: auto;
 }
 
 .course-preview {
 	background-color: #1b2375;
 	color: #fff;
 	padding: 30px;
-	max-width: 250px;
+	width: 80%;
 }
 
 .course-preview a {
@@ -47,13 +50,6 @@
 	width: 100%;
 }
 
-.progress-container {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	text-align: right;
-	width: 150px;
-}
 
 .progress {
 	background-color: #ddd;
@@ -62,16 +58,6 @@
 	width: 100%;
 }
 
-.progress::after {
-	border-radius: 3px;
-	background-color: #1b2375;
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 5px;
-	width: 66%;
-}
 
 .progress-text {
 	font-size: 10px;
@@ -79,7 +65,7 @@
 	letter-spacing: 1px;
 }
 
-.btn {
+.career_btn {
 	background-color: #1b2375;
 	border: 0;
 	border-radius: 50px;
@@ -91,17 +77,72 @@
 	bottom: 30px;
 	right: 30px;
 	letter-spacing: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
 }
 
-.btn span{
-    
+
+
+.career {
+	margin-top: 15vh;
 }
-.career_start{
-    margin-top: 15vh;
+
+.conference_box {
+	width: 45%;
+	height: 230px;
 }
-.conference_box{
-    width: 40%;
+
+.course {
+	height: 100%;
+}
+
+.conference {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.career_info h2 {
+	color: #1b2375;
+	margin-bottom: 50px;
+}
+
+.career_btn a {
+	color: #FFF;
+}
+
+.career_info {
+	margin-top: 100px;
+}
+
+@media(max-width:768px) {
+	.conference_box {
+		width: 100%;
+	}
+
+	.course-preview a {
+		font-family: math;
+		margin-top: 0;
+	}
+	
+}
+@media(max-width:400px){
+	.conference_box{
+		margin-bottom: 100px;
+	}
+	.course{
+		flex-direction: column;
+		height: auto;
+	}
+	.course-preview{
+		width: 100%;
+	}
+}
+.footer_all{
+	margin-top: 100px;
+	background-color: #0e1133;
+	padding: 40px 0;
 }

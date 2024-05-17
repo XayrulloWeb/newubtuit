@@ -260,6 +260,9 @@
     display: none;
 
 }
+.navbar .fa-solid{
+    margin-left: 10px;
+}
 
 .navbar_links li {
     position: relative;
