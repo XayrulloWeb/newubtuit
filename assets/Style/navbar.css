@@ -280,7 +280,7 @@
     padding-top: 2vh;
     background-color: #0e1133;
     position: absolute;
-    transition: .3s;
+    transition: .3s all;
 }
 
 .fa-solid {
