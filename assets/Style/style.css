@@ -1,0 +1,25 @@
+@import url("../Style/About.css");
+@import url("../Style/canditate.css");
+@import url("../Style/centre.css");
+@import url("../Style/home.css");
+@import url("../Style/departaments.css");
+@import url("../Style/director.css");
+@import url("../Style/kafedra.css");
+@import url("../Style/navbar.css");
+@import url("../../career/career.css");
+@import url("../Style/employe.css");
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+.footer__all{
+    background-color: #0e1133;
+}

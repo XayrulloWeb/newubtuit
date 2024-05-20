@@ -165,6 +165,7 @@
 
 .home_about_footer ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     font-size: 12px;
 }
