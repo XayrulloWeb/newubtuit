@@ -1,5 +1,60 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    margin: 0;
+.canditate{
+    margin-top: 13vh;
+}
+
+.canditate_document_text ol{
+    padding-left: 50px;
+}
+.canditate_document_text p{
+    width: 50%;
+    text-align: justify;
+}
+.canditate_route, .canditate_transfer, .canditate_regulations{
+    margin-top: 100px;
+}
+.canditate_route-start, .canditate_document_text{
+    background-color: #f6f6f6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.canditate_route-start ul{
+    width: 30%;
+}
+@media(max-width:994px){
+    .canditate_route-start{
+        flex-direction: column;
+    }
+    .canditate_route-start ul{
+        width: 100%;
+        text-align: center;
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    .canditate_document_text{
+        flex-direction: column;
+    gap: 30px;
+
+    }
+    .canditate_document_text p{
+        width: 100%;
+    }
+}
+.canditate_transfer-start{
+    background-color: #f6f6f6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+.canditate a{
+    color: #0000ff;
+    font-weight: 600;
 }

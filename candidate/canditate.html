@@ -1,11 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar_start">
+                <div class="navbar_logo">
+                    <a href="/index.html"> <img src="/assets/Images/logo.png" alt="logo">
+                    </a>
+                    <span>Muhammad Al-Xorazmiy Nomidagi <br> Toshkent Axborot Texnologiyalari <br> Universiteti
+                        Urganch Filiali</span>
+                </div>
+
+                <div class="navbar_links">
+                    <ul>
+                        <li class="link"><a class="nav__link">TUZILMA <i class="fa-solid fa-caret-down"></i>
+                                <div class="dropdown__menu">
+                                    <ul>
+                                        <li onmouseenter="showDD(1)" onmouseleave="closeDD(1)"><a>DIREKTORAT <i
+                                                    class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="DD1" class="dropdown__menu-1 menu" onmouseenter="showDD(1)"
+                                            onmouseleave="closeDD(1)">
+                                            <ul>
+                                                <li><a href="./director.html">
+                                                        <p>Director</p>
+                                                    </a></li>
+                                                <li><a href="./employe.html">
+                                                        <p>YOSHLAR MASALALARI VA MA’NAVIY-MA’RIFIY ISHLAR BO‘YICHA
+                                                            DIREKTORNING BIRINCHI O’RINBOSARI</p>
+                                                    </a></li>
+                                                <li><a href="./employe-two.html">
+                                                        <p>ILMIY ISHLAR VA INNOVATSIYALAR BO’YICHA DIREKTOR
+                                                            O’RINBOSARI</p>
+                                                    </a></li>
+                                                <li><a href="./employe-three.html">O'QUV ISHLAR BO'YICHA DIREKTOR
+                                                        O'RINBOSARI</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDD(2)" onmouseleave="closeDD(2)"><a>KAFEDRALAR <i
+                                                    class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="DD2" class="dropdown__menu-2 menu" onmouseenter="showDD(2)"
+                                            onmouseleave="closeDD(2)">
+                                            <ul>
+                                                <li><a href="./kafedra_one.html">
+                                                        <p>AXBOROT TEXNOLOGIYALARI KAFEDRASI</p>
+                                                    </a></li>
+                                                <li><a href="./kafedra_two.html">
+                                                        <p>RAQAMLI TA’LIM TEXNOLOGIYALARI KAFEDRASI</p>
+                                                    </a></li>
+                                                <li><a href="./kafedra_three.html">
+                                                        <p> TELEKOMMUNIKATSIYA INJINIRINGI KAFEDRASI</p>
+                                                    </a></li>
+                                                <li><a href="./kafedra_four.html">
+                                                        DASTURIY INJINIRING KAFEDRASI</a></l i>
+                                                <li><a href="./kafedra_five.html">TABIIY FANLAR KAFEDRASI</a></li>
+                                                <li><a href="./kafedra_six.html">GUMANITAR VA IJTIMOIY FANLAR
+                                                        KAFEDRASI</a></li>
+                                                <li><a href="./kafedra_seven.html">
+                                                        AXBOROT ХАVFSIZLIGI KAFEDRASI</a></li>
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDD(3)" onmouseleave="closeDD(3)"><a>MARKAZLAR
+                                                <i class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="DD3" class="dropdown__menu-3 menu" onmouseenter="showDD(3)"
+                                            onmouseleave="closeDD(3)">
+                                            <ul>
+                                                <li><a href="./centre/centre_one.html">RAQAMLI TA'LIM
+                                                        TEXNOLOGIYALARI MARKAZI</a></li>
+                                                <li><a href="./centre/centre_two.html">AXBOROT-RESURS MARKAZI:</a>
+                                                </li>
+                                                <li><a href="./centre/centre_third.html">DEVONXONA VA ARXIV
+                                                        BO'LIMI</a></li>
+                                                <li><a href="./centre/centre_four.html">O'QUV-USLUBIY BO'LIMI
+                                                        BOSHLIG‘I</a></li>
+                                                <li><a href="./centre/centre_five.html">TA'LIM SIFATINI NAZORAT
+                                                        QILISH BO'LIMI BOSHLIG‘I</a>
+                                                </li>
+                                                <li><a href="./centre/centre_six.html">KADRLAR BO'LIMI BOSHLIG‘I</a>
+                                                </li>
+                                                <li><a href="./centre/centre_seven.html">YOSHLAR BILAN ISHLASH,
+                                                        MA'NAVIYAT VA MA'RIFAT
+                                                        BO'LIMI</a></li>
+                                                <li><a href="./centre/centre_eight.html">XALQARO HAMKORLIK BO'LIMI
+                                                        BOSHLIG‘I</a></li>
+                                                <li><a href="./centre/centre_nine.html">ICHKI NAZORAT VA MONITORING
+                                                        BO‘LIMI BOSHLIG'I</a>
+                                                </li>
+                                                <li><a href="./centre/centre_eight.html">TALABALARNI TURAR JOY BILAN
+                                                        TAʼMINLASHNI
+                                                        MUVOFIQLASHTIRISH BOʼLIM</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDD(4)" onmouseleave="closeDD(4)"><a>BO'LIMLAR
+                                                <i class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="DD4" class="dropdown__menu-4 menu" onmouseenter="showDD(4)"
+                                            onmouseleave="closeDD(4)">
+                                            <ul>
+                                                <li><a href="./departments/departament_first.html">ILMIY-TADQIQOTLAR,
+                                                        INNOVATSIYALAR VA ILMIY-PEDAGOGIK
+                                                        KADRLARNI TAYYORLASH BOʼLIMI</a></li>
+                                                <li><a href="./departments/departament_second.html">IQTIDORLI
+                                                        TALABALARNING ILMIY-TADQIQOT ISHLARINI
+                                                        TASHKIL ETISH BO’LIMI:</a></li>
+                                                <li><a href="./departments/departament_third.html">MARKETING VA
+                                                        TALABALAR AMALIYOTI BO'LIMI</a></li>
+                                                <li><a href="./departments/departament_four.html">
+                                                        REJA-MOLIYA BO'LIMI BOSHLIG‘I</a></li>
+                                                <li><a href="./departments/departament_five.html">YURIDIK XIZMATI
+                                                        BO'LIMI</a></li>
+                                                <li><a href="./departments/departament_six.html">MATBUOT XIZMATI
+                                                        BO'LIMI</a></li>
+                                                <li><a href="./departments/departament_seven.html">TEXNIK-FOYDALANISH
+                                                        VA XO’JALIK BO’LIMI</a></li>
+                                                <li><a href="./departments/departament_eight.html">MEHNAT MUHOFAZASI
+                                                        VA FUQORALARNI HIMOYA QILISH
+                                                        BO‘LIMI</a></li>
+                                                <li><a href="./departments/deparament_nine.html">SIRTQI BO'LIM</a>
+                                                </li>
+                                                <li><a href="./departments/departament_ten.html">KORRUPSIYAGA QARSHI
+                                                        KURASHISH VA "KOMPLAENS NAZORAT"
+                                                        TIZIMINI BOSHQARISH BO'LIMI BOSHLIG'I</a></li>
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDD(5)" onmouseleave="closeDD(5)"><a>FAKULTETLAR <i
+                                                    class="fa-solid fa-caret-right"></i></a>
+                                        </li>
+                                        <div id="DD5" class="dropdown__menu-5 menu" onmouseenter="showDD(5)"
+                                            onmouseleave="closeDD(5)">
+                                            <ul>
+                                                <li><a href="">
+                                                        KOMPYUTER INJINIRINGI FAKULTETI</a></li>
+                                                <li><a href="">TELEKOMMUNIKATSIYA TEXNOLOGIYALARI FAKULTETI</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDD(6)" onmouseleave="closeDD(6)"><a>KENGASHLAR <i
+                                                    class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="DD6" class="dropdown__menu-6 menu" onmouseenter="showDD(6)"
+                                            onmouseleave="closeDD(6)">
+                                            <ul>
+                                                <li><a href="">FILIAL KENGASHI </a></li>
+                                                <li><a href="">FILIAL XOTIN QIZLAR KENGASHI</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </a></li>
+                        <li class="link"><a class="nav__link" href="#">TALABALAR <i
+                                    class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown__menu">
+                                <ul>
+                                    <li onmouseenter="showDDtwo(1)" onmouseleave="closeDDtwo(1)"><a
+                                            href="#">STIPENDIYALAR VA GRANTLAR <i
+                                                class="fa-solid fa-caret-right"></i></a></li>
+                                    <div id="Dd1" class="dropdown__menu-7 menu" onmouseenter="showDDtwo(1)"
+                                        onmouseleave="closeDDtwo(1)">
+                                        <ul>
+                                            <li><a href="./director.html">
+                                                    <p>XORIJIY STIPENDIYALAR</p>
+                                                </a></li>
+                                            <li><a href="./employe.html">
+                                                    <p>TALABALAR UCHUN DAVLAT STIPENDIYALARI</p>
+                                                </a></li>
+                                            <li><a href="./employe-two.html">
+                                                    <p>O'ZRAT VA KRV STIPENDIYASI</p>
+                                                </a></li>
+                                            <li><a href="./employe-three.html">KASABA UYUSHMALARINING STIPENDIYALARI
+                                                    VA GRANTLARI</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <li onmouseenter="showDDtwo(2)" onmouseleave="closeDDtwo(2)"><a href="#">QO'SHIMCHA
+                                            MA'LUMOTLAR <i class="fa-solid fa-caret-right"></i></a></li>
+                                    <div id="Dd2" class="dropdown__menu-8 menu" onmouseenter="showDDtwo(2)"
+                                        onmouseleave="closeDDtwo(2)">
+                                        <ul>
+                                            <li><a href="">
+                                                    <p>STIPENDIYA MIQDORI</p>
+                                                </a></li>
+                                            <li><a href="">
+                                                    <p>TOʼLOV-KONTRAKT MIQDORLARI</p>
+                                                </a></li>
+                                            <li><a href="">
+                                                    <p> O’QUV DASTURLARI KATALOGI</p>
+                                                </a></li>
+                                            <li><a href="">
+                                                    BAKALAVR BITIRUVCHILARINING BITIRUV MALAKAVIY ISH MAVZULARI</a>
+                                                </l i>
+                                            <li><a href="">MAGISTRLIK DISSERTATSIYALARI MAVZULARI</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <li onmouseenter="showDDtwo(3)" onmouseleave="closeDDtwo(3)"><a href="#">ONLINE
+                                            RESURSLAR
+                                            <i class="fa-solid fa-caret-right"></i></a></li>
+                                    <div id="Dd3" class="dropdown__menu-9 menu" onmouseenter="showDDtwo(3)"
+                                        onmouseleave="closeDDtwo(3)">
+                                        <ul>
+                                            <li><a href="">
+                                                    INNOVATSION DASTUR</a></li>
+                                            <li><a href="">DARS JADVALI</a></li>
+                                            <li><a href="">DEVONXONA VA ARXIV BO'LIMI</a></li>
+                                            <li><a href="">AXBOROT-RESURS MARKAZI</a></li>
+                                            <li><a href="">Masofaviy ta`lim tizimi </a>
+                                            </li>
+                                            <li><a href="">DAVLAT ATESTATSIYA KOMISSIYASI</a></li>
+
+
+                                        </ul>
+                                    </div>
+                                    <li onmouseenter="showDDtwo(4)" onmouseleave="closeDDtwo(4)"><a href="#">YOSHLAR
+                                            SIYOSATI DOIRASIDAGI IMKONIYATLAR
+                                            <i class="fa-solid fa-caret-right"></i></a></li>
+                                    <div id="Dd4" class="dropdown__menu-10 menu" onmouseenter="showDDtwo(4)"
+                                        onmouseleave="closeDDtwo(4)">
+                                        <ul>
+                                            <li><a href="">Yoshlar-kelajagimiz jamg`armasi</a></li>
+                                            <li><a href="">Ijara huquqi asosida yashayotgan talabalar</a></li>
+                                            <li><a href="">Xalqaro imtihon tizimlari bo`yicha</a></li>
+                                            <li><a href="">
+                                                    Kunduzgi talim shakliga krishda eng yuqori ball</a></li>
+                                            <li><a href="">Imkon loyihasi</a></li>
+                                            <li><a href="">Bir million ozbek dasturchilari</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <li onmouseenter="showDDtwo(5)" onmouseleave="closeDDtwo(5)"><a href="#">XORIJIY
+                                            TALABALAR
+                                            <i class="fa-solid fa-caret-right"></i></a>
+                                    </li>
+                                    <div id="Dd5" class="dropdown__menu-11 menu" onmouseenter="showDDtwo(5)"
+                                        onmouseleave="closeDDtwo(5)">
+                                        <ul>
+                                            <li><a href="">
+                                                    XORIJIY FUQAROLAR QABULI</a></li>
+                                            <li><a href="">XORIJIY TALABALAR XAVFSIZLIGI</a></li>
+                                            <li><a href="">XORIJIY TALABALARNING O'QISHI </a></li>
+
+                                        </ul>
+                                    </div>
+                                    <li onmouseenter="showDDtwo(6)" onmouseleave="closeDDtwo(6)"><a href="#">QAYTA
+                                            O'QISH
+                                            <i class="fa-solid fa-caret-right"></i></a></li>
+                                    <div id="Dd6" class="dropdown__menu-12 menu" onmouseenter="showDDtwo(6)"
+                                        onmouseleave="closeDDtwo(6)">
+                                        <ul>
+                                            <li><a href="">Qayta o`qish tartibi </a></li>
+                                            <li><a href="">Qayta o`qish dars jadvali</a></li>
+                                            <li><a href="">Iqtidorli talabalar</a></li>
+
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link"><a class="nav__link" href="./career/career.html">FAOLIYAT</a></li>
+
+                        <li class="link"><a class="nav__link" href="#">INNOVATSIYALAR</a></li>
+                        <li class="link"><a class="nav__link" href="#">YANGILIKLAR</a></li>
+                        <li class="link"><a class="nav__link" href="./candidate/canditate.html">ABITURIYENT</a></li>
+
+
+                        <li class="link"><a class="nav__link" href="./aboutUbTuit.html">UNIVERSITET HAQIDA</a></li>
+
+                    </ul>
+                    <span class="more-links-button">ko'proq <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512">
+                            <path
+                                d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+                        </svg></span>
+
+                    <div class="more-links">
+                        <li><a href="#">INNOVATSIYALAR</a></li>
+
+                        <li><a href="#">YANGILIKLAR</a></li>
+                        <li><a href="#">ABITURIYENT</a></li>
+                        <li><a href="./aboutUbTuit.html">UNIVERSITET HAQIDA</a></li>
+                    </div>
+                </div>
+                <div class="menu-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="navbar_search">
+            <img src="/assets/Images/search_icon.png" alt="icon_search">
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="canditate">
+            <div class="direction">
+                <a href="./index.html">
+                    <p>Home</p>
+
+                </a>
+                <span>ABITURIYENT</span>
+            </div>
+            <div class="canditate_start">
+                <div class="canditate_start-content">
+                    <div class="canditate_document">
+                        <h2 class="Gtext">
+
+                            HUJJATLAR TO'PLAMI</h2>
+                        <div class="canditate_document_text ">
+                            <p>Abituriyentlarni ro'yxatdan o'tkazish <a
+                                    href="https://my.uzbmb.uz">https://my.uzbmb.uz</a> , <a
+                                    href="https://my.gov.uz">https://my.gov.uz</a> havolasi
+                                orqali amalga oshiriladi.
+
+                                2023/2024 o'quv yilida hujjatlarni Online topshirish uchun quyidagi hujjatlar talab
+                                etiladi:</p>
+                            <ol>
+                                <li>fuqarolik pasporti;</li>
+                                <li>o‘rta yoki o‘rta maxsus ma’lumoti haqidagi hujjat;</li>
+                                <li>ta’lim muassasini joriy yildan oldin tugatganlar uchun tizimda ko'rsatilgan pulni
+                                    to'lashi;</li>
+                                <li>ta'lim yo'nalishi, o'qitish tili va shakli ko'rsatilgan holdagi tizimdagi
+                                    maydonlarni to'ldirish.</li>
+                            </ol>
+                            <p>Xalqaro va respublika olimpiadalari, tanlovlar va musobaqa g‘oliblari o‘qishga tanlovsiz
+                                kirish huquqini beruvchi ma'lumotni tizimga kiritishi talab etiladi;
+
+                                Muddatli harbiy xizmatni o‘tagan va harbiy qism tavsiyanomasiga ega bo‘lgan
+                                abituriyentlar tegishli tavsiyanomasi haqidagi ma'lumotni tizimga kiritishi lozim.</p>
+                        </div>
+                    </div>
+
+                    <div class="canditate_route">
+                        <h2 class="Gtext">
+                            TA'LIM YO'NALISHLARI VA MUTAXASSISLIKLAR</h2>
+                        <div class="canditate_route-start">
+                            <ul>
+                                <h4>Bakalavr kunduzgi</h4>
+                                <li>60610300 - Axborot xavfsizligi (sohalar bo`yicha)</li>
+                                <li>60610500 - Kompyuter injiniringi: kompyuter injiniringi</li>
+                                <li>60610600 - Dasturiy injiniring</li>
+                                <li>60611000 - Telekommunikatsiya texnologiyalari</li>
+                                <li>60611300 - Axborot-kommunikatsiya texnologiyalari sohasida kasb ta'limi</li>
+                                <li>60611400 - Pochta aloqasi texnologiyasi</li>
+                            </ul>
+                            <ul>
+                                <h4>Bakalavr sirtqi</h4>
+                                <li>60610500 - Kompyuter injiniringi: kompyuter injiniringi</li>
+                                <li>60611000 - Telekommunikatsiya texnologiyalarii</li>
+                                <li>60320400 - Kutubxona-axborot faoliyati (faoliyat turlari boʼyicha)</li>
+                                <li>60611400 - Pochta aloqasi texnologiyasi</li>
+                            </ul>
+                            <ul>
+                                <h4>Magistratura mutaxassisliklari</h4>
+                                <li>70610302 - Аxborot xavfsizligi (yoʼnalishlar boʼyicha)</li>
+                                <li>70610501 - Kompyuter injiniringi (Kompyuter tizimlarini loyihalash)</li>
+                                <li>70611001 - Telekommunikatsiya injiniringi (“Teleradioeshittirish”)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="canditate_transfer">
+                        <h2 class="Gtext">
+
+                            TALABALAR OʼQISHINI KOʼCHIRISH VA QAYTA TIKLASH</h2>
+                        <div class="canditate_transfer-start">
+                            <div class="canditate_transfer-box">
+                                <h4>
+                                    Oʻqishni koʻchirish uchun onlayn ariza qabul qilish boshlandi</h4>
+                                <p> 2023/2024-oʻquv yili uchun respublika oliy taʼlim muassasalariga talabalar oʻqishini
+                                    koʻchirish, qayta tiklash boʻyicha arizalar quyidagi elektron tizimlar orqali qabul
+                                    qilinadi:
+                                    <a href="https://transfer.edu.uz/uz"> transfer.edu.uz</a>
+                                    <a href="https://my.dtm.uz/"> my.uzbmb.uz</a>
+                                    respublikaning bir OTMdan boshqa OTMga yoki bir OTM doirasida;
+                                    xorijiy va nodavlat oliy taʼlim muassasalaridan.
+                                    Qabul 2023-yil 15-iyuldan 5-avgustgacha (shu kuni ham) davom etadi.
+                                </p>
+                            </div>
+                            <div class="canditate_transfer-box">
+                                <h4>Kerakli hujjatlar:</h4>
+                                ariza onlayn tarzda (Bir davlat OTM doirasida mos va turdosh yo'nalishlar kesimida ariza
+                                yozma tarzda)
+                                transkript yoki reyting daftarchasi yohud akademik ma’lumotnoma (JPG yoki PDF shakli)
+                                Eslatib o‘tamiz, davlat oliy ta’lim muassasasining biridan boshqasiga talabalar
+                                o‘qishini ko‘chirishga faqatgina quyidagi holatlarda ruxsat beriladi:
+
+                                Talaba oila qurishi munosabati bilan turmush o‘rtog‘i doimiy yashaydigan hududdagi oliy
+                                ta’lim muassasasiga o‘qishini ko‘chirish uchun murojaat qilganda;
+
+                                Davlat organlarining xodimlari ish joyi o‘zgargan taqdirda uning turmush o‘rtog‘i yoki
+                                voyaga yetmagan farzandi o‘qishini ko‘chirish uchun murojaat qilganda, tegishli vazirlik
+                                (idora) rahbarining tavsiyasi asosida;
+
+                                Ogoh bo‘ling, xorijdan o‘qishni ko‘chirish bilan bog‘liq noqonuniy holatlarning oldini
+                                olish maqsadida testlar yakuniga yetgach, hujjatlar qayta tekshiriladi. Agarda ushbu
+                                jarayonda soxta hujjatlar aniqlangan, oliy ta’lim muassasasida qarzdorliklar mavjud
+                                bo‘lsa, talaba oʻtish balidan yuqori ball to‘plagan taqdirda ham unga o‘qishni
+                                ko‘chirishga ruxsat etilmaydi.
+                            </div>
+                            <div class="canditate_transfer-box">
+                                <ol>
+                                    <li> O‘zbekiston Respublikasi Prezidentining 2022-yil 15-iyundagi <a
+                                            href="https://lex.uz/uz/docs/-6070845">“Davlat oliy ta’lim muassasalariga
+                                            o‘qishga qabul qilish jarayonlarini tashkil etish to‘g‘risida”
+                                            PQ-279-sonli</a> qarori.</li>
+                                    <li>Vazirlar Mahkamasining 2017-yil 20-iyundagi <a
+                                            href="https://lex.uz/docs/-3244181"> “Oliy ta’lim muassasalariga o‘qishga
+                                            qabul qilish, talabalar o‘qishini ko‘chirish, qayta tiklash va o‘qishdan
+                                            chetlashtirish tartibi to‘g‘risidagi nizomlarni tasdiqlash haqida”
+                                            393-sonli</a> qarori.
+
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="canditate_regulations">
+                        <h2 class="Gtext">
+
+
+                            QABUL NIZOMLARI</h2>
+                            <div class="canditate_regulations-start">
+                                <ol>
+                                    <li><a href="https://www.lex.uz/docs/721889">O‘zbekiston Respublikasi Vazirlar Mahkamasining 1994 yil 14 maydagi “O‘zbekiston Respublikasi Vazirlar Mahkamasi huzurida Davlat test markazi tashkil etish to‘g‘risida”gi 258-sonli qarori</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/899316"> O‘zbekiston Respublikasi Prezidentining 2005 yil 31 oktyabrdagi “O‘zbekiston respublikasi qurolli kuchlari safida muddatli harbiy xizmatni o‘tayotgan harbiy xizmatchilarga beriladigan imtiyozlar tizimini yanada takomillashtirish chora-tadbirlari to‘g‘risida” gi PQ-213-sonli qarori</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/1248937">   O‘zbekiston Respublikasi Vazirlar Mahkamasining 2007 yil 10 sentyabrdagi “O‘zbekiston respublikasi oliy ta'lim tizimida magistratura faoliyatini yanada takomillashtirish, uning samaradorligini oshirish chora-tadbirlari to‘g‘risida”gi 190-sonli qarori</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/1382066">  O‘zbekiston Respublikasi Vazirlar Mahkamasining 2008 yil 7 avgustdagi “Ayrim fanlar chuqur o‘rganiladigan davlat ixtisoslashtirilgan umumta'lim muassasalari faoliyatini takomillashtirish to‘g‘risida”gi 173-sonli qarori</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/1399382">O‘zbekiston Respublikasi Vazirlar Mahkamasining 2008 yil 13 oktyabrdagi “O‘zbekiston iqtidorli yoshlarini taqdirlash va moddiy rag‘batlantirish to‘g‘risida”gi 226-sonli qarori</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/1867868">O‘zbekiston Respublikasi Vazirlar Mahkamasining 2011 yil 9 sentyabrdagi “Ayrim fanlar chuqur o‘rganiladigan davlat umumta'lim muassasalarining ixtisoslashtirilgan sinflari, davlat ixtisoslashtirilgan umumta'lim muassasalari to‘g‘risidagi Nizomga o‘zgartirish va qo‘shimchalar kiritish haqida”gi 254-sonli qarori</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/2030933">O‘zbekiston Respublikasi Vazirlar Mahkamasining 2012 yil 11 iyuldagi “O‘zbekiston respublikasi qurolli kuchlari safida muddatli harbiy xizmatni o‘tab bo‘lgan fuqarolarni oliy ta'lim muassasalariga qabul qilish tartibi to‘g‘risidagi Nizomni tasdiqlash haqida”gi 205-sonli qarori</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/2039980"> “O‘zbekiston Respublikasi Davlat boshqaruvi akademiyasi magistraturasiga qabul qilishda test sinovlarini tashkil etish va o‘tkazish tartibi to‘g‘risidagi nizomni tasdiqlash haqida” (01.08.2012 y., 2384-son bilan ro‘yxatdan o‘tgan)</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/1952324"> “Ayrim fanlar chuqur o‘rganiladigan davlat umumta'lim muassasalarining ixtisoslashtirilgan sinflariga, davlat ixtisoslashtirilgan umumta'lim muassasalariga o‘quvchilar qabul qilish tartibi to‘g‘risidagi nizomni tasdiqlash haqida” (01.12.2012y, 2321-son bilan ro‘yxatdan o‘tgan)</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/-2126032">   O‘zbekiston Respublikasi Prezidentining 2012 yil 10 dekabrdagi “Chet tillarni o‘rganish tizimini yanada takomillashtirish chora-tadbirlari to‘g‘risida”gi PQ-1875-sonli qarori</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/2203487">“Oliy harbiy ta'lim muassasalarida test sinovlarini o‘tkazish tartibi to‘g‘risidagi nizomni tasdiqlash haqida” (12.07.2013y, 2477-son bilan ro‘yxatdan o‘tgan)</a></li>
+                                    <br>
+                                    <li><a href="https://www.lex.uz/docs/3244181">O‘zbekiston Respublikasi Vazirlar Mahkamasining 2017 yil 20 iyundagi “Oliy ta'lim muassasalariga o‘qishga qabul qilish, talabalar o‘qishini ko‘chirish, qayta tiklash va o‘qishdan chetlashtirish tartibi to‘g‘risidagi nizomlarni tasdiqlash haqida”gi 393-son qarori</a></li>
+                                    <br>
+                                    <li><a href="http://www.lex.uz/pages/getpage.aspx?lact_id=3304915">“Ta'lim muassasalarida chet tillarini o‘qitishning sifatini yanada takomillashtirish chora-tadbirlari to‘g‘risida” (11.08.2017y., 610-son)</a></li>
+                                    <br>
+                                    <li><a href="http://www.lex.uz/pages/getpage.aspx?lact_id=3413551"> O‘zbekiston Respublikasi Prezidentining 2017 yil 16 noyabrdagi “Respublika oliy ta'lim muassasalari bakalavriatiga kirish test sinovlarini o‘tkazish tartibini takomillashtirish to‘g‘risida”gi PQ-3389-son qarori</a></li>
+                                    <br>
+                                    <li><a href=""> O‘zbekiston Respublikasi Vazirlar Mahkamasining 2018 yil 20 fevraldagi “O‘zbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Davlat test markazi faoliyatini yanada takomillashtirish to‘g‘risida”gi 130-sonli qarori</a></li>
+                                    <br>
+                                    <li><a href=""> O‘zbekiston Respublikasi Vazirlar Mahkamasining 2018 yil 3 apreldagi “Oliy ta'lim muassasalariga o‘qishga qabul qilish tartibini yanada takomillashtirish to‘g‘risida”gi 261-son qarori</a></li>
+                                    <br>
+                                    <li><a href="">O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019 yil 13 maydagi "Oliy ta'lim muassasalariga o‘qishga qabul qilishda milliy hamda xalqaro baholash tizimlari sertifikatlarini tatbiq qilish chora-tadbirlari to‘g‘risida" 395-son qarori</a></li>
+                                    <br>
+                                    <li><a href=""> O‘zbekiston Respublikasi Prezidentining 2019 yil 14 maydagi "Oliy ta’lim muassasalariga test sinovlari orqali qabul qilish tizimini takomillashtirish bo‘yicha qo‘shimcha chora-tadbirlar to‘g‘risida" PQ-4319-son qarori</a></li>
+                                    <br>
+                                    <li><a href="">O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019 yil 9 iyuldagi “Oliy taʼlim muassasalariga test sinovlari orqali qabul qilish tizimi takomillashtirilishi munosabati bilan Oʻzbekiston Respublikasi Vazirlar Mahkamasi huzuridagi Davlat test markazining faoliyatini kuchaytirish toʻgʻrisida”gi 572-son qarori</a></li>
+                                    <br>
+                                    <li><a href="">2022/2023 O‘quv yili uchun davlat oliy ta'lim muassasalariga o‘qishga qabul qilishning davlat buyurtmasi parametrlari to'g'risida O‘zbekiston Respublikasi Prezidentining farmoyishi, 15.06.2022 yildagi F-60-son </a></li>
+                                    <br>
+                                    <li><a href=""> O‘zbekiston Respublikasi Prezidentining 2022-yil 15-iyundagi “Davlat oliy ta’lim muassasalariga o‘qishga qabul qilish jarayonlarini tashkil etish to‘g‘risida” PQ-279-sonli qarori.</a></li>
+                                </ol>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
