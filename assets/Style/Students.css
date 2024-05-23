@@ -1,0 +1,28 @@
+.stipendiya{
+    margin-top: 12vh;
+}
+.stipendiya_start{
+    margin-top: 150px;
+}
+.stipendiya_content-start{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.stipendiya_left{
+    width: 47%;
+
+}
+.stipendiya_right{
+    width: 50%;
+}
+.stipendiya_start img{
+    width: 100%;
+    height: 100%;
+}
+.stipendiya_start .Gtext{
+    margin-bottom: 50px;
+}
+.stipendiya_content-start h3{
+    margin-bottom: 30px;
+}
