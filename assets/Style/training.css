@@ -1,0 +1,53 @@
+.magistratura {
+    margin-top: 12vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;
+}
+.magistratura_content_kvota h3{
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+th:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+.table-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.header-row {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.total-row {
+    font-weight: bold;
+}
+
+.magistratura_content_sertifikat h3 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}

@@ -1,3 +1,10 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
 .centre {
     padding-top: 10vh;
 }
@@ -113,7 +120,8 @@
         text-align: center;
 
     }
-    .centre_info > .direction{
+
+    .centre_info>.direction {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -148,11 +156,12 @@
 }
 
 /* ----------------------- */
-.centre_worker-start{
+.centre_worker-start {
     display: flex;
     gap: 30px;
     margin-top: 50px;
 }
+
 article h2 {
     color: #fff;
     line-height: 1.1;
@@ -219,7 +228,7 @@ article p {
     width: calc(100% + 1.25rem);
     bottom: calc((1.25rem - 0.5rem) * -1);
     left: -1.25rem;
-    background-color:hsl(46, 100%, 50%);
+    background-color: hsl(46, 100%, 50%);
 }
 
 .card__button {
@@ -303,6 +312,7 @@ article p {
         transition-delay: 500ms;
     }
 }
-.centre_worker > h3{
+
+.centre_worker>h3 {
     text-align: center;
 }

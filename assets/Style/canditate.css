@@ -1,6 +1,12 @@
 .canditate{
     margin-top: 13vh;
 }
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+}
 
 .canditate_document_text ol{
     padding-left: 50px;
