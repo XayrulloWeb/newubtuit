@@ -1,0 +1,72 @@
+.fakultet{
+    margin-top: 12vh;
+}
+.fakultet_persons, .fakultet_kafedras{
+    margin-top: 50px;
+}
+
+.fakultet_kafedra-box{
+    padding: 10px;
+    width: 24%;
+    border-radius: 15px;
+    height: 140px;
+    background-color: #0e1133;
+    border: 2px solid #d2d2d2;
+    line-height: 130%;
+    transition: all .5s ease;
+    box-shadow: 0 10px 15px -2px rgba(0, 0, 0, 0.15);
+}
+.fakultet_kafedra-box a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+
+}
+.fakultet_kafedras-start{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.fakultet_kafedra-box i{
+    font-size: 30px;
+    color: #fff;
+}
+.fakultet_kafedra-box p{
+    color: #fff;
+}
+.fakultet_kafedra-box:hover{
+    transition: all .5s ease;
+
+    background-color: #fff;
+}
+.fakultet_kafedra-box:hover i{
+    color: #0e1133;
+}
+.fakultet_kafedra-box:hover p{
+    color: #0e1133;
+}
+@media(max-width:900px){
+    .card{
+        height: auto;
+    }
+
+    .fakultet_kafedras-start{
+        flex-wrap: wrap;
+    
+        
+    }
+    .fakultet_kafedra-box{
+        width: 40%;
+    }
+   
+}
+@media(max-width:500px){
+    .fakultet_kafedra-box{
+        width: 100%;
+    }
+}
