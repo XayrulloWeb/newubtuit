@@ -1,12 +1,23 @@
+<<<<<<< HEAD
 
 
+=======
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+>>>>>>> af5969add8e6113743aa2210b730c8c6a03be21c
 
 .kafedra {
     padding-top: 10vh;
 }
-.kafedra_start{
+
+.kafedra_start {
     margin-bottom: 100px;
 }
+
 .kafedra_info-start {
     display: flex;
     justify-content: space-between;
@@ -61,7 +72,6 @@
 }
 
 .kafedra_lessons-start {
-    width: 30%;
     margin-top: 50px;
 
 }
@@ -91,42 +101,52 @@
 .kafedra_lesson-text-start {
     width: 80%;
 }
-.kafedra_lessons-info{
-    width: 65%;
+
+.kafedra_lessons-info {
+    width: 100%;
     margin-top: 130px;
 }
-.kafedra_lessons{
+
+.kafedra_lessons {
     display: flex;
     justify-content: space-between;
 }
-@media(max-width:1040px){
-    .kafedra_info-start{
+
+@media(max-width:1040px) {
+    .kafedra_info-start {
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
-    .kafedra_info{
+
+    .kafedra_info {
         width: 100%;
     }
-    .kafedra_lessons{
+
+    .kafedra_lessons {
         flex-direction: column;
     }
-    .kafedra_lessons-start{
+
+    .kafedra_lessons-start {
         width: 100%;
     }
-    .kafedra_lessons-info{
+
+    .kafedra_lessons-info {
         width: 100%;
     }
-    .kafedra_lesson-icon{
+
+    .kafedra_lesson-icon {
         width: 49%;
     }
-    .kafedra_lessons-icon-start{
+
+    .kafedra_lessons-icon-start {
         display: flex;
         flex-wrap: wrap;
     }
 }
-@media(max-width:500px){
-    .kafedra_lesson-icon{
+
+@media(max-width:500px) {
+    .kafedra_lesson-icon {
         width: 100%;
     }
 }
