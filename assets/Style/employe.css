@@ -1,9 +1,4 @@
-.container{
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 80px;
-}
+
 .employe_text > span {
     display: flex;
     text-align: center;
@@ -68,6 +63,7 @@
     width: 1000px;
     font-size: 18px;
     display: flex;
+    text-align: justify;
     flex-direction: column;
     gap: 30px;
 }

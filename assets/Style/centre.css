@@ -1,10 +1,7 @@
-.container {
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 80px;
-}
 
+.centre_info > p{
+    text-align: justify;
+}
 .centre {
     padding-top: 10vh;
 }
@@ -101,6 +98,7 @@
 .centre_lessons-info {
     width: 100%;
     margin-top: 130px;
+    text-align: justify;
 }
 
 .centre_lessons {
@@ -152,6 +150,9 @@
 @media(max-width:500px) {
     .centre_lesson-icon {
         width: 100%;
+    }
+    .centre_G-image{
+        width: 300px;
     }
 }
 
@@ -316,4 +317,48 @@ article p {
 
 .centre_worker>h3 {
     text-align: center;
+}
+
+
+
+
+@media(max-width:1000px){
+    .card{
+        height: auto;
+    }
+    .card__title{
+        font-size: 12px;
+    }
+    article p{
+        font-size: 8px;
+    }
+    .card__button{
+        font-size: 8px;
+    }
+}
+@media(max-width:768px){
+    .card{
+        width: 100%;
+        max-width: 100%;
+        height: 400px;
+    }
+    .centre_worker-start{
+        flex-wrap: wrap;
+    }
+
+    .card__content {
+        height: 30%;
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 20px); /* Каждая карточка занимает 50% ширины с учетом отступов */
+    }
+}
+
+/* Медиа-запросы для экранов шириной 480px и меньше */
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%; /* Каждая карточка занимает 100% ширины */
+    }
 }
