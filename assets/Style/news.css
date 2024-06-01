@@ -1,10 +1,12 @@
-.news{
+.news {
     margin-top: 12vh;
 }
-.news_achievement-box{
+
+.news_achievement-box {
     width: 48%;
 }
-.news_achievement-box a{
+
+.news_achievement-box a {
     display: flex;
     height: auto;
     text-decoration: none;
@@ -14,16 +16,18 @@
 
 }
 
-.news_achievement-img img{
+.news_achievement-img img {
     width: 300px;
     object-fit: cover;
 }
-.news_achievement-start{
+
+.news_achievement-start {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.news_achievement-text h4{
+
+.news_achievement-text h4 {
     font-size: 24px;
     color: #333;
     font-weight: 700;
@@ -31,7 +35,97 @@
     line-height: 1.15;
     margin-bottom: 10px;
 }
-.news_achievement-text p{
+
+.news_achievement-text p {
     line-height: 1.3;
     font-size: 18px;
+}
+
+.solo_start {
+    margin-top: 12vh;
+
+}
+
+.solonews_left,
+.solonews_right {
+    width: 30%;
+}
+
+.solonews_left_box_data,
+.solonews_right_box_data {
+    display: flex;
+    gap: 10px;
+}
+
+.solonews_left_box a,
+.solonews_right_box a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.solonews_left_box_text,
+.solonews_right_box_text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #000000;
+    -webkit-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.solonews_left_box_data p,
+.solonews_right_box_data p {
+    color: #8f8f8f;
+    font-weight: 300;
+
+}
+
+.solonews_left_box i,
+.solonews_right_box i {
+    color: #8f8f8f;
+    font-weight: 300;
+}
+
+.solonews_left_content,
+.solonews_right_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.solonews_left_box {
+
+    border-right: 1px solid rgba(197, 197, 197, 0.8);
+    border-bottom: 1px solid rgba(197, 197, 197, 0.8);
+    padding: 20px;
+}
+
+.solonews_right_box {
+
+    border-left: 1px solid rgba(197, 197, 197, 0.8);
+    border-bottom: 1px solid rgba(197, 197, 197, 0.8);
+    padding: 20px;
+}
+
+
+.solonews_start {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Center */
+
+.solonews_center_box {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.solonews_center_box img {
+    width: 100%;
+}
+
+.solonews_center_text{
+    text-align: justify;
 }
