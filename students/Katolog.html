@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/Style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar_start">
+                    <div class="navbar_logo">
+                        <a href="/index.html"> <img src="/assets/Images/logo.png" alt="logo">
+                        </a>
+                        <span>Muhammad Al-Xorazmiy Nomidagi <br> Toshkent Axborot Texnologiyalari <br> Universiteti
+                            Urganch Filiali</span>
+                    </div>
+
+                    <div class="navbar_links">
+                        <ul>
+                            <li class="link"><a class="nav__link">TUZILMA <i class="fa-solid fa-caret-down"></i>
+                                    <div class="dropdown__menu">
+                                        <ul>
+                                            <li onmouseenter="showDD(1)" onmouseleave="closeDD(1)"><a>DIREKTORAT <i
+                                                        class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD1" class="dropdown__menu-1 menu" onmouseenter="showDD(1)"
+                                                onmouseleave="closeDD(1)">
+                                                <ul>
+                                                    <li><a href="./director.html">
+                                                            <p>Director</p>
+                                                        </a></li>
+                                                    <li><a href="./employe.html">
+                                                            <p>YOSHLAR MASALALARI VA MA’NAVIY-MA’RIFIY ISHLAR BO‘YICHA
+                                                                DIREKTORNING BIRINCHI O’RINBOSARI</p>
+                                                        </a></li>
+                                                    <li><a href="./employe-two.html">
+                                                            <p>ILMIY ISHLAR VA INNOVATSIYALAR BO’YICHA DIREKTOR
+                                                                O’RINBOSARI</p>
+                                                        </a></li>
+                                                    <li><a href="./employe-three.html">O'QUV ISHLAR BO'YICHA DIREKTOR
+                                                            O'RINBOSARI</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(2)" onmouseleave="closeDD(2)"><a>KAFEDRALAR <i
+                                                        class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD2" class="dropdown__menu-2 menu" onmouseenter="showDD(2)"
+                                                onmouseleave="closeDD(2)">
+                                                <ul>
+                                                    <li><a href="./kafedra_one.html">
+                                                            <p>AXBOROT TEXNOLOGIYALARI KAFEDRASI</p>
+                                                        </a></li>
+                                                    <li><a href="./kafedra_two.html">
+                                                            <p>RAQAMLI TA’LIM TEXNOLOGIYALARI KAFEDRASI</p>
+                                                        </a></li>
+                                                    <li><a href="./kafedra_three.html">
+                                                            <p> TELEKOMMUNIKATSIYA INJINIRINGI KAFEDRASI</p>
+                                                        </a></li>
+                                                    <li><a href="./kafedra_four.html">
+                                                            DASTURIY INJINIRING KAFEDRASI</a></l i>
+                                                    <li><a href="./kafedra_five.html">TABIIY FANLAR KAFEDRASI</a></li>
+                                                    <li><a href="./kafedra_six.html">GUMANITAR VA IJTIMOIY FANLAR
+                                                            KAFEDRASI</a></li>
+                                                    <li><a href="./kafedra_seven.html">
+                                                            AXBOROT ХАVFSIZLIGI KAFEDRASI</a></li>
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(3)" onmouseleave="closeDD(3)"><a>MARKAZLAR
+                                                    <i class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD3" class="dropdown__menu-3 menu" onmouseenter="showDD(3)"
+                                                onmouseleave="closeDD(3)">
+                                                <ul>
+                                                    <li><a href="./centre/centre_one.html">RAQAMLI TA'LIM
+                                                            TEXNOLOGIYALARI MARKAZI</a></li>
+                                                    <li><a href="./centre/centre_two.html">AXBOROT-RESURS MARKAZI:</a>
+                                                    </li>
+                                                    <li><a href="./centre/centre_third.html">DEVONXONA VA ARXIV
+                                                            BO'LIMI</a></li>
+                                                    <li><a href="./centre/centre_four.html">O'QUV-USLUBIY BO'LIMI
+                                                            BOSHLIG‘I</a></li>
+                                                    <li><a href="./centre/centre_five.html">TA'LIM SIFATINI NAZORAT
+                                                            QILISH BO'LIMI BOSHLIG‘I</a>
+                                                    </li>
+                                                    <li><a href="./centre/centre_six.html">KADRLAR BO'LIMI BOSHLIG‘I</a>
+                                                    </li>
+                                                    <li><a href="./centre/centre_seven.html">YOSHLAR BILAN ISHLASH,
+                                                            MA'NAVIYAT VA MA'RIFAT
+                                                            BO'LIMI</a></li>
+                                                    <li><a href="./centre/centre_eight.html">XALQARO HAMKORLIK BO'LIMI
+                                                            BOSHLIG‘I</a></li>
+                                                    <li><a href="./centre/centre_nine.html">ICHKI NAZORAT VA MONITORING
+                                                            BO‘LIMI BOSHLIG'I</a>
+                                                    </li>
+                                                    <li><a href="./centre/centre_eight.html">TALABALARNI TURAR JOY BILAN
+                                                            TAʼMINLASHNI
+                                                            MUVOFIQLASHTIRISH BOʼLIM</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(4)" onmouseleave="closeDD(4)"><a>BO'LIMLAR
+                                                    <i class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD4" class="dropdown__menu-4 menu" onmouseenter="showDD(4)"
+                                                onmouseleave="closeDD(4)">
+                                                <ul>
+                                                    <li><a href="./departments/departament_first.html">ILMIY-TADQIQOTLAR,
+                                                            INNOVATSIYALAR VA ILMIY-PEDAGOGIK
+                                                            KADRLARNI TAYYORLASH BOʼLIMI</a></li>
+                                                    <li><a href="./departments/departament_second.html">IQTIDORLI
+                                                            TALABALARNING ILMIY-TADQIQOT ISHLARINI
+                                                            TASHKIL ETISH BO’LIMI:</a></li>
+                                                    <li><a href="./departments/departament_third.html">MARKETING VA
+                                                            TALABALAR AMALIYOTI BO'LIMI</a></li>
+                                                    <li><a href="./departments/departament_four.html">
+                                                            REJA-MOLIYA BO'LIMI BOSHLIG‘I</a></li>
+                                                    <li><a href="./departments/departament_five.html">YURIDIK XIZMATI
+                                                            BO'LIMI</a></li>
+                                                    <li><a href="./departments/departament_six.html">MATBUOT XIZMATI
+                                                            BO'LIMI</a></li>
+                                                    <li><a href="./departments/departament_seven.html">TEXNIK-FOYDALANISH
+                                                            VA XO’JALIK BO’LIMI</a></li>
+                                                    <li><a href="./departments/departament_eight.html">MEHNAT MUHOFAZASI
+                                                            VA FUQORALARNI HIMOYA QILISH
+                                                            BO‘LIMI</a></li>
+                                                    <li><a href="./departments/deparament_nine.html">SIRTQI BO'LIM</a>
+                                                    </li>
+                                                    <li><a href="./departments/departament_ten.html">KORRUPSIYAGA QARSHI
+                                                            KURASHISH VA "KOMPLAENS NAZORAT"
+                                                            TIZIMINI BOSHQARISH BO'LIMI BOSHLIG'I</a></li>
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(5)" onmouseleave="closeDD(5)"><a>FAKULTETLAR <i
+                                                        class="fa-solid fa-caret-right"></i></a>
+                                            </li>
+                                            <div id="DD5" class="dropdown__menu-5 menu" onmouseenter="showDD(5)"
+                                                onmouseleave="closeDD(5)">
+                                                <ul>
+                                                    <li><a href="./fakultets/fakultet_komp.html">
+                                                            KOMPYUTER INJINIRINGI FAKULTETI</a></li>
+                                                    <li><a href="./fakultets/fakultet_tele.html">TELEKOMMUNIKATSIYA
+                                                            TEXNOLOGIYALARI FAKULTETI</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <li onmouseenter="showDD(6)" onmouseleave="closeDD(6)"><a>KENGASHLAR <i
+                                                        class="fa-solid fa-caret-right"></i></a></li>
+                                            <div id="DD6" class="dropdown__menu-6 menu" onmouseenter="showDD(6)"
+                                                onmouseleave="closeDD(6)">
+                                                <ul>
+                                                    <li><a href="./council/council-one.html">FILIAL KENGASHI </a></li>
+                                                    <li><a href="./council/council_two.html">FILIAL XOTIN QIZLAR
+                                                            KENGASHI</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </a></li>
+                            <li class="link"><a class="nav__link" href="#">TALABALAR <i
+                                        class="fa-solid fa-caret-down"></i></a>
+                                <div class="dropdown__menu">
+                                    <ul>
+                                        <li onmouseenter="showDDtwo(1)" onmouseleave="closeDDtwo(1)"><a
+                                                href="#">STIPENDIYALAR VA GRANTLAR <i
+                                                    class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd1" class="dropdown__menu-7 menu" onmouseenter="showDDtwo(1)"
+                                            onmouseleave="closeDDtwo(1)">
+                                            <ul>
+                                                <li><a href="./students/studentStipentiya-one.html">
+                                                        <p>XORIJIY STIPENDIYALAR</p>
+                                                    </a></li>
+                                                <li><a href="./students/studentStipendiya-two.html">
+                                                        <p>TALABALAR UCHUN DAVLAT STIPENDIYALARI</p>
+                                                    </a></li>
+
+
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(2)" onmouseleave="closeDDtwo(2)"><a
+                                                href="#">QO'SHIMCHA MA'LUMOTLAR <i
+                                                    class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd2" class="dropdown__menu-8 menu" onmouseenter="showDDtwo(2)"
+                                            onmouseleave="closeDDtwo(2)">
+                                            <ul>
+
+                                                <li><a href="./payment/payment.html">
+                                                        <p>TOʼLOV-KONTRAKT MIQDORLARI</p>
+                                                    </a></li>
+                                                <li><a href="">
+                                                        <p> O’QUV DASTURLARI KATALOGI</p>
+                                                    </a></li>
+
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(3)" onmouseleave="closeDDtwo(3)"><a href="#">ONLINE
+                                                RESURSLAR
+                                                <i class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd3" class="dropdown__menu-9 menu" onmouseenter="showDDtwo(3)"
+                                            onmouseleave="closeDDtwo(3)">
+                                            <ul>
+
+                                                <li><a href="https://table.ubtuit.uz/">DARS JADVALI</a></li>
+                                                <li><a href="">AXBOROT-RESURS MARKAZI</a></li>
+                                                <li><a href="http://lms.ubtuit.uz/">Masofaviy ta`lim tizimi </a>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(4)" onmouseleave="closeDDtwo(4)"><a href="#">YOSHLAR
+                                                SIYOSATI DOIRASIDAGI IMKONIYATLAR
+                                                <i class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd4" class="dropdown__menu-10 menu" onmouseenter="showDDtwo(4)"
+                                            onmouseleave="closeDDtwo(4)">
+                                            <ul>
+                                                <li><a href="https://lex.uz/docs/-4643195?ONDATE=01.01.2020%2000">Yoshlar-kelajagimiz
+                                                        jamg`armasi</a></li>
+                                                <li><a href="https://lex.uz/docs/-5657191">Ijara huquqi asosida
+                                                        yashayotgan talabalar</a></li>
+                                                <li><a href="https://lex.uz/docs/5370812">Xalqaro imtihon tizimlari
+                                                        bo`yicha</a></li>
+                                                <li><a href="https://lex.uz/docs/5493939">
+                                                        Kunduzgi talim shakliga krishda eng yuqori ball</a></li>
+                                                <li><a href="https://yoshlar.gov.uz/uz/project/%22imkon%22-loyihasi/">Imkon
+                                                        loyihasi</a></li>
+                                                <li><a href="https://uzbekcoders.uz">Bir million ozbek dasturchilari</a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(5)" onmouseleave="closeDDtwo(5)"><a href="#">XORIJIY
+                                                TALABALAR
+                                                <i class="fa-solid fa-caret-right"></i></a>
+                                        </li>
+                                        <div id="Dd5" class="dropdown__menu-11 menu" onmouseenter="showDDtwo(5)"
+                                            onmouseleave="closeDDtwo(5)">
+                                            <ul>
+                                                <li><a href="">
+                                                        XORIJIY FUQAROLAR QABULI</a></li>
+                                                <li><a href="">XORIJIY TALABALAR XAVFSIZLIGI</a></li>
+                                                <li><a href="">XORIJIY TALABALARNING O'QISHI </a></li>
+
+                                            </ul>
+                                        </div>
+                                        <li onmouseenter="showDDtwo(6)" onmouseleave="closeDDtwo(6)"><a href="#">QAYTA
+                                                O'QISH
+                                                <i class="fa-solid fa-caret-right"></i></a></li>
+                                        <div id="Dd6" class="dropdown__menu-12 menu" onmouseenter="showDDtwo(6)"
+                                            onmouseleave="closeDDtwo(6)">
+                                            <ul>
+                                                <li><a href="https://lex.uz/docs/3833195">Qayta o`qish tartibi </a></li>
+                                                <li><a href="https://table.ubtuit.uz/">Qayta o`qish dars jadvali</a>
+                                                </li>
+                                                <li><a href="">Iqtidorli talabalar</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="link"><a class="nav__link" href="./career/career.html">FAOLIYAT</a></li>
+
+                            <li class="link"><a class="nav__link" href="#">INNOVATSIYALAR</a></li>
+                            <li class="link"><a class="nav__link" href="./news/solo_news.html">YANGILIKLAR</a></li>
+                            <li class="link"><a class="nav__link" href="./candidate/canditate.html">ABITURIYENT</a></li>
+
+
+                            <li class="link"><a class="nav__link" href="./aboutUbTuit.html">UNIVERSITET HAQIDA</a></li>
+
+                        </ul>
+                        <span class="more-links-button">ko'proq <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 384 512">
+                                <path
+                                    d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+                            </svg></span>
+
+                        <div class="more-links">
+                            <li><a href="#">INNOVATSIYALAR</a></li>
+
+                            <li><a href="#">YANGILIKLAR</a></li>
+                            <li><a href="#">ABITURIYENT</a></li>
+                            <li><a href="./aboutUbTuit.html">UNIVERSITET HAQIDA</a></li>
+                        </div>
+                    </div>
+                    <div class="menu-btn">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="navbar_search">
+                <img src="/assets/Images/search_icon.png" alt="icon_search">
+            </div>
+        </div>
+
+        <div class="catalog">
+            <div class="container">
+                <div class="catalog_start">
+                    <div class="catalog_KI">
+                        <button data-target="table1" class="Gtext">5330500-Kompyuter injiniringi (Kompyuter
+                            injiniringi)</button>
+                        <table id="table1" class="tableContainer">
+                            <thead>
+                                <tr>
+                                    <th>№</th>
+                                    <th>Fan o'qitadigan kurs</th>
+                                    <th>Fan o'qitadigan semestr</th>
+                                    <th>Fanning kodi</th>
+                                    <th>Fanning krediti</th>
+                                    <th>Fanning nomi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>HSM*</td>
+                                    <td>4</td>
+                                    <td>Gumanitar tanlov fan</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>AWR1112</td>
+                                    <td>2</td>
+                                    <td>Akademik yozuv 1</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>FRL1114</td>
+                                    <td>4</td>
+                                    <td>Xorijiy til 1</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>MTH1218</td>
+                                    <td>8</td>
+                                    <td>Xisob(Calculus)</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>PHY1216</td>
+                                    <td>6</td>
+                                    <td>Fizika1</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>SWD1316</td>
+                                    <td>6</td>
+                                    <td>Dasturlash 1</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>PHE1120</td>
+                                    <td>0</td>
+                                    <td>Jismoniy tarbiya</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>HSM*</td>
+                                    <td>4</td>
+                                    <td>Gumanitar tanlov fan</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>AWR1122</td>
+                                    <td>2</td>
+                                    <td>Akademik yozuv 2</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>FRL1124</td>
+                                    <td>4</td>
+                                    <td>Xorijiy til 2</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>MTH1224</td>
+                                    <td>4</td>
+                                    <td>Differensial tenglamalar</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>MTH1234</td>
+                                    <td>6</td>
+                                    <td>Chiziqli algebra</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>PHY1226</td>
+                                    <td>6</td>
+                                    <td>Fizika 2</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>SWD1326</td>
+                                    <td>6</td>
+                                    <td>Dasturlash 2</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>PHE1120</td>
+                                    <td>0</td>
+                                    <td>Jismoniy tarbiya</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>DBM1316</td>
+                                    <td>6</td>
+                                    <td>Ma'lumotlar bazasi</td>
+                                </tr>
+                                <tr>
+                                    <td>17</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>CSF1316</td>
+                                    <td>6</td>
+                                    <td>Kiberxavfsizlik asoslari</td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>SWD1336</td>
+                                    <td>6</td>
+                                    <td>Ma'lumotlar tuzilmasi va algoritmlar</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>CAE1316</td>
+                                    <td>6</td>
+                                    <td>Elektronika va sxemalar 1</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>MTH1246</td>
+                                    <td>6</td>
+                                    <td>Diskret tuzilmalar</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>CAO1316</td>
+                                    <td>6</td>
+                                    <td>Kompyuterni tashkil yetilishi</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>WEB1316</td>
+                                    <td>6</td>
+                                    <td>Web dasturlashga kirish</td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>CAL1316</td>
+                                    <td>6</td>
+                                    <td>Algoritmlarni loyihalash</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>CAE1426</td>
+                                    <td>6</td>
+                                    <td>Elektronika va sxemalar 2</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>MTH1256</td>
+                                    <td>6</td>
+                                    <td>Extimollik va statistika</td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>NWK1316</td>
+                                    <td>6</td>
+                                    <td>Kompyuter tarmoqlari</td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>DIG1416</td>
+                                    <td>6</td>
+                                    <td>Kompyuter arxitekturasi</td>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>SRM1416</td>
+                                    <td>6</td>
+                                    <td>Raqamli qurilmalarni loyixalashga kirish</td>
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>OEL</td>
+                                    <td>4</td>
+                                    <td>Ochiq tanlov fani
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>CSP1312</td>
+                                    <td>2</td>
+                                    <td>Individual loyixa 1
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>31</td>
+                                    <td>3</td>
+                                    <td>6</td>
+                                    <td>SSP1416</td>
+                                    <td>6</td>
+                                    <td>Operatsion tizimlar
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>32</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>EBS1416</td>
+                                    <td>6</td>
+                                    <td>O‘rnatilgan tizimlar
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>33</td>
+                                    <td>3</td>
+                                    <td>6</td>
+                                    <td>WNT1416</td>
+                                    <td>6</td>
+                                    <td>
+                                        Mashinali o‘qitishga kirish</td>
+                                </tr>
+                                <tr>
+                                    <td>34</td>
+                                    <td>3</td>
+                                    <td>6</td>
+                                    <td>OEL</td>
+                                    <td>6</td>
+                                    <td>Tarmoq xavfsizligi</td>
+                                </tr>
+                                <tr>
+                                    <td>35</td>
+                                    <td>3</td>
+                                    <td>6</td>
+                                    <td>SSP1416</td>
+                                    <td>4</td>
+                                    <td>Ochiq tanlov fani</td>
+                                </tr>
+                                <tr>
+                                    <td>36</td>
+                                    <td>3</td>
+                                    <td>5</td>
+                                    <td>CSP1322</td>
+                                    <td>2</td>
+                                    <td>Individual loyixa 2</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="catalog_TI">
+                        <button data-target="table2" class="Gtext">5A350101- Telekommunikatsiya injiniringi
+                            (Teleradioeshittirish) Magistratura</button>
+                        <table id="table2" class="tableContainer">
+                            <thead>
+                                <tr>
+                                    <th>№</th>
+                                    <th>Fan oʻtiladigan kurs</th>
+                                    <th>Fan oʻtiladigan semestr</th>
+                                    <th>Fanning krediti</th>
+                                    <th>Fanning nomi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                    <td>Ilmiy-tadqiqot metodologiyasi</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                    <td>Axborotlarni izlash va aqrabito olish</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                    <td>Mutaxassislik tanlov fani</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>Algoritmlarni loyihalashtrish va tahlil qilish</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>Innovatsiya va loyihalarni boshqarish</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2</td>
+                                    <td>6</td>
+                                    <td>6</td>
+                                    <td>Raqamli teleradioeshittirish tizimlari</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>2</td>
+                                    <td>6</td>
+                                    <td>6</td>
+                                    <td>Sun'iy intellekt va neyron tarmoqlari</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>6</td>
+                                    <td>Mutaxassislik tanlov fani</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>6</td>
+                                    <td>Studiy va studiyadan tashqari eshittirishlarni tashkil qilish</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>6</td>
+                                    <td>Mutaxassislik tanlov fani</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="catalog_TI-M">
+                        <button data-target="table3" class="Gtext">5A330501- Kompyuter injiniringi (Kompyuter
+                            tizimlarini loyihalashtirish) Magistratura</button>
+                        <table id="table3" class="tableContainer">
+                            <thead>
+                                <tr>
+                                    <th>№</th>
+                                    <th>Fan oʻtiladigan kurs</th>
+                                    <th>Fan oʻtiladigan semestr</th>
+                                    <th>Fanning krediti</th>
+                                    <th>Fanning nomi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                    <td>Ilmiy-tadqiqot metodologiyasi</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                    <td>Axborotlarni izlash va aqrabito olish</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                    <td>Mutaxassislik tanlov fani</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>Algoritmlarni loyihalashtrish va tahlil qilish</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>Innovatsiya va loyihalarni boshqarish</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>2</td>
+                                    <td>6</td>
+                                    <td>6</td>
+                                    <td>Raqamli teleradioeshittirish tizimlari</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>2</td>
+                                    <td>6</td>
+                                    <td>6</td>
+                                    <td>Sun'iy intellekt va neyron tarmoqlari</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>6</td>
+                                    <td>Mutaxassislik tanlov fani</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                    <td>6</td>
+                                    <td>Studiy va studiyadan tashqari eshittirishlarni tashkil qilish</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>4</td>
+                                    <td>6</td>
+                                    <td>Mutaxassislik tanlov fani</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../assets/js/trancute.js"></script>
+    <script src="../assets/js/catalog.js"></script>
+
+</body>
+
+</html>
